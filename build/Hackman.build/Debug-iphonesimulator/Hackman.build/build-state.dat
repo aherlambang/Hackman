@@ -1,0 +1,1357 @@
+THackman
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Info.plist Hackman/Hackman-Info.plist
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o /Developer/Hackman/Hackman/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o /Developer/Hackman/Hackman/OptionsViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman normal i386
+cGenerateDSYMFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+cCopyStringsFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings
+cCompileXIB /Developer/Hackman/Hackman/MainViewController.xib
+cCompileXIB /Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+cCompileXIB /Developer/Hackman/Hackman/OptionsViewController.xib
+cCpResource Hackman/background.png build/Debug-iphonesimulator/Hackman.app/background.png
+cCpResource Hackman/about1.png build/Debug-iphonesimulator/Hackman.app/about1.png
+cCpResource Hackman/options1.png build/Debug-iphonesimulator/Hackman.app/options1.png
+cCpResource Hackman/Logo@2x.png build/Debug-iphonesimulator/Hackman.app/Logo@2x.png
+cCpResource Hackman/play1.png build/Debug-iphonesimulator/Hackman.app/play1.png
+cCpResource "Hackman/Hackman Frames/hack1.png" build/Debug-iphonesimulator/Hackman.app/hack1.png
+cCpResource "Hackman/Hackman Frames/hack2.png" build/Debug-iphonesimulator/Hackman.app/hack2.png
+cCpResource "Hackman/Hackman Frames/hack1@2x.png" build/Debug-iphonesimulator/Hackman.app/hack1@2x.png
+cCpResource "Hackman/Hackman Frames/hack2@2x.png" build/Debug-iphonesimulator/Hackman.app/hack2@2x.png
+cCpResource "Hackman/Hackman Frames/hack3.png" build/Debug-iphonesimulator/Hackman.app/hack3.png
+cCpResource "Hackman/Hackman Frames/hack3@2x.png" build/Debug-iphonesimulator/Hackman.app/hack3@2x.png
+cCpResource "Hackman/Hackman Frames/hack4.png" build/Debug-iphonesimulator/Hackman.app/hack4.png
+cCpResource "Hackman/Hackman Frames/hack4@2x.png" build/Debug-iphonesimulator/Hackman.app/hack4@2x.png
+cCpResource "Hackman/Hackman Frames/hack5@2x.png" build/Debug-iphonesimulator/Hackman.app/hack5@2x.png
+cCpResource "Hackman/Hackman Frames/hack6.png" build/Debug-iphonesimulator/Hackman.app/hack6.png
+cCpResource "Hackman/Hackman Frames/hack5.png" build/Debug-iphonesimulator/Hackman.app/hack5.png
+cCpResource "Hackman/Hackman Frames/hack6@2x.png" build/Debug-iphonesimulator/Hackman.app/hack6@2x.png
+cCpResource "Hackman/Hackman Frames/hack7.png" build/Debug-iphonesimulator/Hackman.app/hack7.png
+cCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/startups.plist Hackman/startups.plist
+cCpResource "Hackman/Hackman Frames/hack7@2x.png" build/Debug-iphonesimulator/Hackman.app/hack7@2x.png
+cCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/programming.plist Hackman/programming.plist
+cCpResource Hackman/category.png build/Debug-iphonesimulator/Hackman.app/category.png
+cCpResource Hackman/button-red.png build/Debug-iphonesimulator/Hackman.app/button-red.png
+cCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/names.plist Hackman/names.plist
+cCpResource Hackman/A.png build/Debug-iphonesimulator/Hackman.app/A.png
+cCpResource Hackman/B.png build/Debug-iphonesimulator/Hackman.app/B.png
+cCpResource Hackman/C.png build/Debug-iphonesimulator/Hackman.app/C.png
+cCpResource Hackman/D.png build/Debug-iphonesimulator/Hackman.app/D.png
+cCpResource Hackman/E.png build/Debug-iphonesimulator/Hackman.app/E.png
+cCpResource Hackman/F.png build/Debug-iphonesimulator/Hackman.app/F.png
+cCpResource Hackman/H.png build/Debug-iphonesimulator/Hackman.app/H.png
+cCpResource Hackman/G.png build/Debug-iphonesimulator/Hackman.app/G.png
+cCpResource Hackman/I.png build/Debug-iphonesimulator/Hackman.app/I.png
+cCpResource Hackman/J.png build/Debug-iphonesimulator/Hackman.app/J.png
+cCpResource Hackman/K.png build/Debug-iphonesimulator/Hackman.app/K.png
+cCpResource Hackman/L.png build/Debug-iphonesimulator/Hackman.app/L.png
+cCpResource Hackman/M.png build/Debug-iphonesimulator/Hackman.app/M.png
+cCpResource Hackman/N.png build/Debug-iphonesimulator/Hackman.app/N.png
+cCpResource Hackman/O.png build/Debug-iphonesimulator/Hackman.app/O.png
+cCpResource Hackman/P.png build/Debug-iphonesimulator/Hackman.app/P.png
+cCpResource Hackman/Q.png build/Debug-iphonesimulator/Hackman.app/Q.png
+cCpResource Hackman/R.png build/Debug-iphonesimulator/Hackman.app/R.png
+cCpResource Hackman/S.png build/Debug-iphonesimulator/Hackman.app/S.png
+cCpResource Hackman/T.png build/Debug-iphonesimulator/Hackman.app/T.png
+cCpResource Hackman/U.png build/Debug-iphonesimulator/Hackman.app/U.png
+cCpResource Hackman/V.png build/Debug-iphonesimulator/Hackman.app/V.png
+cCpResource Hackman/X.png build/Debug-iphonesimulator/Hackman.app/X.png
+cCpResource Hackman/Y.png build/Debug-iphonesimulator/Hackman.app/Y.png
+cCpResource Hackman/Z.png build/Debug-iphonesimulator/Hackman.app/Z.png
+cCpResource Hackman/W.png build/Debug-iphonesimulator/Hackman.app/W.png
+cTouch /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+N/Developer/Hackman/Hackman/A.png
+c000000004E3849860000000000000B37
+t1312311686
+s2871
+
+N/Developer/Hackman/Hackman/B.png
+c000000004E38750A0000000000000B39
+t1312322826
+s2873
+
+N/Developer/Hackman/Hackman/C.png
+c000000004E3875200000000000000B30
+t1312322848
+s2864
+
+N/Developer/Hackman/Hackman/D.png
+c000000004E38753A0000000000000B3B
+t1312322874
+s2875
+
+N/Developer/Hackman/Hackman/E.png
+c000000004E38754E0000000000000B1B
+t1312322894
+s2843
+
+N/Developer/Hackman/Hackman/F.png
+c000000004E38756D0000000000000B1C
+t1312322925
+s2844
+
+N/Developer/Hackman/Hackman/G.png
+c000000004E3875830000000000000B2E
+t1312322947
+s2862
+
+N/Developer/Hackman/Hackman/GameViewController.h
+c000000004E3887B500000000000002E7
+t1312327605
+s743
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/GameViewController.m
+c000000004E3890F60000000000001868
+t1312329974
+s6248
+i"GameViewController.h"
+
+N/Developer/Hackman/Hackman/GameViewController.xib
+c000000004E3887DA0000000000001F06
+t1312327642
+s7942
+
+N/Developer/Hackman/Hackman/H.png
+c000000004E3875940000000000000B2A
+t1312322964
+s2858
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack1.png
+c000000004E371E600000000000001592
+t1312235104
+s5522
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack1@2x.png
+c000000004E371CE700000000000010DC
+t1312234727
+s4316
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack2.png
+c000000004E371E2300000000000019F4
+t1312235043
+s6644
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack2@2x.png
+c000000004E371D0400000000000015C1
+t1312234756
+s5569
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack3.png
+c000000004E371E130000000000001AAE
+t1312235027
+s6830
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack3@2x.png
+c000000004E371D0F00000000000015D1
+t1312234767
+s5585
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack4.png
+c000000004E371DFC0000000000001D23
+t1312235004
+s7459
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack4@2x.png
+c000000004E371D2400000000000018EE
+t1312234788
+s6382
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack5.png
+c000000004E371DE20000000000001F7A
+t1312234978
+s8058
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack5@2x.png
+c000000004E371D330000000000001B5D
+t1312234803
+s7005
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack6.png
+c000000004E371DC60000000000002092
+t1312234950
+s8338
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack6@2x.png
+c000000004E371D4B0000000000001C81
+t1312234827
+s7297
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack7.png
+c000000004E371DA60000000000002175
+t1312234918
+s8565
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack7@2x.png
+c000000004E371D590000000000001F2B
+t1312234841
+s7979
+
+N/Developer/Hackman/Hackman/Hackman-Prefix.pch
+c000000004E36080E0000000000000140
+t1312163854
+s320
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Developer/Hackman/Hackman/HackmanAppDelegate.h
+c000000004E36080F0000000000000135
+t1312163855
+s309
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/HackmanAppDelegate.m
+c000000004E3873CB0000000000000F0C
+t1312322507
+s3852
+i"HackmanAppDelegate.h"
+i"MainViewController.h"
+
+N/Developer/Hackman/Hackman/I.png
+c000000004E3875AA0000000000000B0B
+t1312322986
+s2827
+
+N/Developer/Hackman/Hackman/J.png
+c000000004E3875BC0000000000000B1C
+t1312323004
+s2844
+
+N/Developer/Hackman/Hackman/K.png
+c000000004E3875D80000000000000B3E
+t1312323032
+s2878
+
+N/Developer/Hackman/Hackman/L.png
+c000000004E3875E70000000000000B12
+t1312323047
+s2834
+
+N/Developer/Hackman/Hackman/Logo@2x.png
+c000000004E3790A7000000000000414C
+t1312264359
+s16716
+
+N/Developer/Hackman/Hackman/M.png
+c000000004E3875FA0000000000000B31
+t1312323066
+s2865
+
+N/Developer/Hackman/Hackman/MainViewController.h
+c000000004E37949C00000000000001E1
+t1312265372
+s481
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/MainViewController.m
+c000000004E38799C0000000000000910
+t1312323996
+s2320
+i"MainViewController.h"
+i"GameViewController.h"
+i"OptionsViewController.h"
+
+N/Developer/Hackman/Hackman/MainViewController.xib
+c000000004E37969B0000000000003EE2
+t1312265883
+s16098
+
+N/Developer/Hackman/Hackman/N.png
+c000000004E3876160000000000000B30
+t1312323094
+s2864
+
+N/Developer/Hackman/Hackman/O.png
+c000000004E3876350000000000000B35
+t1312323125
+s2869
+
+N/Developer/Hackman/Hackman/OptionsViewController.h
+c000000004E36084D00000000000000F1
+t1312163917
+s241
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/OptionsViewController.m
+c000000004E38532A0000000000000490
+t1312314154
+s1168
+i"OptionsViewController.h"
+
+N/Developer/Hackman/Hackman/OptionsViewController.xib
+c000000004E36084D000000000000187A
+t1312163917
+s6266
+
+N/Developer/Hackman/Hackman/P.png
+c000000004E38764A0000000000000B38
+t1312323146
+s2872
+
+N/Developer/Hackman/Hackman/Q.png
+c000000004E38765D0000000000000B3F
+t1312323165
+s2879
+
+N/Developer/Hackman/Hackman/R.png
+c000000004E3876720000000000000B3F
+t1312323186
+s2879
+
+N/Developer/Hackman/Hackman/S.png
+c000000004E3876890000000000000B56
+t1312323209
+s2902
+
+N/Developer/Hackman/Hackman/T.png
+c000000004E3876A00000000000000B1F
+t1312323232
+s2847
+
+N/Developer/Hackman/Hackman/U.png
+c000000004E3876B40000000000000B39
+t1312323252
+s2873
+
+N/Developer/Hackman/Hackman/V.png
+c000000004E3876CA0000000000000B40
+t1312323274
+s2880
+
+N/Developer/Hackman/Hackman/W.png
+c000000004E3876E50000000000000B32
+t1312323301
+s2866
+
+N/Developer/Hackman/Hackman/X.png
+c000000004E3876F40000000000000B4C
+t1312323316
+s2892
+
+N/Developer/Hackman/Hackman/Y.png
+c000000004E3877080000000000000B42
+t1312323336
+s2882
+
+N/Developer/Hackman/Hackman/Z.png
+c000000004E3877160000000000000B32
+t1312323350
+s2866
+
+N/Developer/Hackman/Hackman/about1.png
+c000000004E35D4E00000000000002652
+t1312150752
+s9810
+
+N/Developer/Hackman/Hackman/background.png
+c000000004E34F8EE000000000000ED1C
+t1312094446
+s60700
+
+N/Developer/Hackman/Hackman/button-red.png
+c000000004E3836310000000000000B6C
+t1312306737
+s2924
+
+N/Developer/Hackman/Hackman/category.png
+c000000004E3846AF0000000000000B99
+t1312310959
+s2969
+
+N/Developer/Hackman/Hackman/en.lproj/InfoPlist.strings
+c000000004E36080E000000000000002D
+t1312163854
+s45
+
+N/Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+c000000004E3790A40000000000002086
+t1312264356
+s8326
+
+N/Developer/Hackman/Hackman/main.m
+c000000004E36080E000000000000016C
+t1312163854
+s364
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/names.plist
+c000000004E379A2A00000000000000B5
+t1312266794
+s181
+
+N/Developer/Hackman/Hackman/options1.png
+c000000004E35D4BA000000000000294E
+t1312150714
+s10574
+
+N/Developer/Hackman/Hackman/play1.png
+c000000004E35D49F0000000000001D2A
+t1312150687
+s7466
+
+N/Developer/Hackman/Hackman/programming.plist
+c000000004E379A2D00000000000000B5
+t1312266797
+s181
+
+N/Developer/Hackman/Hackman/startups.plist
+c000000004E3799F400000000000000B5
+t1312266740
+s181
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+t1312329987
+s2006
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM
+t1312329987
+s102
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/A.png
+t1312324087
+s2871
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/B.png
+t1312324087
+s2873
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/C.png
+t1312324087
+s2864
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/D.png
+t1312324087
+s2875
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/E.png
+t1312324087
+s2843
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/F.png
+t1312324087
+s2844
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/G.png
+t1312324087
+s2862
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/GameViewController.nib
+t1312327666
+s1735
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/H.png
+t1312324087
+s2858
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+t1312329987
+s42068
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/I.png
+t1312324087
+s2827
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Info.plist
+t1312323942
+s699
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/J.png
+t1312324087
+s2844
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/K.png
+t1312324087
+s2878
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/L.png
+t1312324087
+s2834
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Logo@2x.png
+t1312324086
+s16716
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/M.png
+t1312324087
+s2865
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/MainViewController.nib
+t1312324085
+s3768
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/N.png
+t1312324087
+s2864
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/O.png
+t1312324087
+s2869
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/OptionsViewController.nib
+t1312324087
+s1231
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/P.png
+t1312324087
+s2872
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/PkgInfo
+t1312323942
+s8
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Q.png
+t1312324087
+s2879
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/R.png
+t1312324087
+s2879
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/S.png
+t1312324087
+s2902
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/T.png
+t1312324087
+s2847
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/U.png
+t1312324087
+s2873
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/V.png
+t1312324087
+s2880
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/W.png
+t1312324087
+s2866
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/X.png
+t1312324087
+s2892
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Y.png
+t1312324087
+s2882
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Z.png
+t1312324087
+s2866
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/about1.png
+t1312324086
+s9810
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/background.png
+t1312324086
+s60700
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/button-red.png
+t1312324086
+s2924
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/category.png
+t1312324087
+s2969
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/InfoPlist.strings
+t1312324077
+s42
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/MainWindow.nib
+t1312324085
+s1515
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack1.png
+t1312324086
+s5522
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack1@2x.png
+t1312324086
+s4316
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack2.png
+t1312324086
+s6644
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack2@2x.png
+t1312324086
+s5569
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack3.png
+t1312324086
+s6830
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack3@2x.png
+t1312324086
+s5585
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack4.png
+t1312324086
+s7459
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack4@2x.png
+t1312324086
+s6382
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack5.png
+t1312324086
+s8058
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack5@2x.png
+t1312324086
+s7005
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack6.png
+t1312324086
+s8338
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack6@2x.png
+t1312324086
+s7297
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack7.png
+t1312324086
+s8565
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack7@2x.png
+t1312324086
+s7979
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/names.plist
+t1312324086
+s42
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/options1.png
+t1312324086
+s10574
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/play1.png
+t1312324086
+s7466
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/programming.plist
+t1312324086
+s42
+
+N/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/startups.plist
+t1312324086
+s42
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o
+t1312329986
+s69524
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/Hackman.LinkFileList
+c000000004E3879EB0000000000000239
+t1312324075
+s569
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o
+t1312323955
+s50220
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o
+t1312327666
+s46068
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o
+t1312323955
+s35556
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o
+t1312323955
+s3052
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E2732520000000000000110
+t1311191634
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E1B20000000000162C50
+t1301537202
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch
+t1312323951
+s12283312
+
+NHackman/Hackman-Info.plist
+c000000004E3793670000000000000439
+t1312265063
+s1081
+
+CBuild AST from /Developer/Hackman/Hackman/GameViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/HackmanAppDelegate.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/MainViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/OptionsViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies234a1bdfc8e8b341^6e872adfc8e8b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s334022785.229093
+e334022786.335455
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o
+x/Developer/Hackman/Hackman/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/GameViewController.mb1c13a81c8e8b341^a4355682c8e8b341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/GameViewController.m0000000000000000^1933"CompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o Hackman/GameViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GameViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/GameViewController.o
+
+CCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s334016753.116799
+e334016756.068570
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o
+x/Developer/Hackman/Hackman/HackmanAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m: In function '-[HackmanAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:36: warning: unused variable 'arr2'
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:31: warning: unused variable 'arr1'
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:24: warning: unused variable 'arr'
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:21: warning: unused variable 'programmingPlist'
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:20: warning: unused variable 'namesPlist'
+o/Developer/Hackman/Hackman/HackmanAppDelegate.m:19: warning: unused variable 'startupPlist'
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/HackmanAppDelegate.m6a181ef1b0e8b341^a3061bf4b0e8b341^-658"/Developer/Hackman/Hackman/HackmanAppDelegate.m: In function '-[HackmanAppDelegate application:didFinishLaunchingWithOptions:]':/Developer/Hackman/Hackman/HackmanAppDelegate.m:36: warning: unused variable 'arr2'/Developer/Hackman/Hackman/HackmanAppDelegate.m:31: warning: unused variable 'arr1'/Developer/Hackman/Hackman/HackmanAppDelegate.m:24: warning: unused variable 'arr'/Developer/Hackman/Hackman/HackmanAppDelegate.m:21: warning: unused variable 'programmingPlist'/Developer/Hackman/Hackman/HackmanAppDelegate.m:20: warning: unused variable 'namesPlist'/Developer/Hackman/Hackman/HackmanAppDelegate.m:19: warning: unused variable 'startupPlist'6(21%IDEActivityLogMessage2@22"Unused variable 'arr2'-334016753#129#84#-1#-23%DVTTextDocumentLocation3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^35#18446744073709551615#35#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@22"Unused variable 'arr1'-334016753#213#84#-1#-3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^30#18446744073709551615#30#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@21"Unused variable 'arr'-334016753#297#83#-1#-3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^23#18446744073709551615#23#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@34"Unused variable 'programmingPlist'-334016753#380#96#-1#-3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@28"Unused variable 'namesPlist'-334016753#476#90#-1#-3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@30"Unused variable 'startupPlist'-334016753#566#92#-1#-3@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^1933"CompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o Hackman/HackmanAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/HackmanAppDelegate.m -o /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/HackmanAppDelegate.o
+
+CCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s334020466.387843
+e334020466.536701
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o
+x/Developer/Hackman/Hackman/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/MainViewController.m56656372bfe8b341^94a28972bfe8b341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/MainViewController.m0000000000000000^1933"CompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o Hackman/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/MainViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/MainViewController.o
+
+CCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o /Developer/Hackman/Hackman/OptionsViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s334016753.116822
+e334016755.985940
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o
+x/Developer/Hackman/Hackman/OptionsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Developer/Hackman/Hackman/OptionsViewController.md21b1ef1b0e8b341^f7e60bf4b0e8b341^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Hackman/Hackman/OptionsViewController.m0000000000000000^1945"CompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o Hackman/OptionsViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/OptionsViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/OptionsViewController.o
+
+CCompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o /Developer/Hackman/Hackman/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s334016753.116758
+e334016755.970449
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o
+x/Developer/Hackman/Hackman/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Developer/Hackman/Hackman/main.m40161ef1b0e8b341^0dde0bf4b0e8b341^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Developer/Hackman/Hackman/main.m0000000000000000^1877"CompileC build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o Hackman/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/main.m -o /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/main.o
+
+CCompileXIB /Developer/Hackman/Hackman/GameViewController.xib
+s334020466.722003
+e334020466.976874
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/GameViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compiling /Developer/Hackman/Hackman/GameViewController.xib35ebb872bfe8b341^4914fa72bfe8b341^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Developer/Hackman/Hackman/GameViewController.xib0000000000000000^585"CompileXIB Hackman/GameViewController.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/GameViewController.nib /Developer/Hackman/Hackman/GameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Hackman/Hackman/MainViewController.xib
+s334016885.221735
+e334016885.900181
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/MainViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compiling /Developer/Hackman/Hackman/MainViewController.xib7fde3875b1e8b341^0d6fe675b1e8b341^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Developer/Hackman/Hackman/MainViewController.xib0000000000000000^585"CompileXIB Hackman/MainViewController.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/MainViewController.nib /Developer/Hackman/Hackman/MainViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Hackman/Hackman/OptionsViewController.xib
+s334016885.221725
+e334016887.727572
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/OptionsViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compiling /Developer/Hackman/Hackman/OptionsViewController.xib7fde3875b1e8b341^5952fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Developer/Hackman/Hackman/OptionsViewController.xib0000000000000000^594"CompileXIB Hackman/OptionsViewController.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/OptionsViewController.nib /Developer/Hackman/Hackman/OptionsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+s334016877.804284
+e334016885.220175
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compiling /Developer/Hackman/Hackman/en.lproj/MainWindow.xib2bf8cd6db1e8b341^e9f13b75b1e8b341^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Hackman/Hackman/en.lproj/MainWindow.xib0000000000000000^588"CompileXIB Hackman/en.lproj/MainWindow.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/MainWindow.nib /Developer/Hackman/Hackman/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/names.plist Hackman/names.plist
+s334016886.970612
+e334016886.984184
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/names.plist
+xHackman/names.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy Hackman/names.plist74b2f876b1e8b341^03ef2477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/names.plist0000000000000000^374"CopyPlistFile build/Debug-iphonesimulator/Hackman.app/names.plist Hackman/names.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app -- Hackman/names.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/programming.plist Hackman/programming.plist
+s334016886.949178
+e334016886.968449
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/programming.plist
+xHackman/programming.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy Hackman/programming.plistb135f376b1e8b341^87e02477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Hackman/Hackman/programming.plist0000000000000000^392"CopyPlistFile build/Debug-iphonesimulator/Hackman.app/programming.plist Hackman/programming.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app -- Hackman/programming.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/startups.plist Hackman/startups.plist
+s334016886.934533
+e334016886.947668
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/startups.plist
+xHackman/startups.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy Hackman/startups.plist7c7fef76b1e8b341^94a1f276b1e8b341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/startups.plist0000000000000000^383"CopyPlistFile build/Debug-iphonesimulator/Hackman.app/startups.plist Hackman/startups.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app -- Hackman/startups.plist
+
+CCopyStringsFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings
+s334016877.781618
+e334016877.802954
+r1
+xCopyStringsFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj/InfoPlist.strings
+xHackman/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Hackman/en.lproj/InfoPlist.strings172dc86db1e8b341^548ecd6db1e8b341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/en.lproj/InfoPlist.strings0000000000000000^471"CopyStringsFile build/Debug-iphonesimulator/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/en.lproj -- Hackman/en.lproj/InfoPlist.strings
+
+CCpResource "Hackman/Hackman Frames/hack1.png" build/Debug-iphonesimulator/Hackman.app/hack1.png
+s334016886.764584
+e334016886.780496
+r1
+xCpResource
+xHackman/Hackman Frames/hack1.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack1.pnge701c476b1e8b341^71e2cb76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack1.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack1.png" build/Debug-iphonesimulator/Hackman.app/hack1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack1.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack1@2x.png" build/Debug-iphonesimulator/Hackman.app/hack1@2x.png
+s334016886.784705
+e334016886.800471
+r1
+xCpResource
+xHackman/Hackman Frames/hack1@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack1@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack1@2x.pngcd02c976b1e8b341^be15cd76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack1@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack1@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack1@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack1@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack2.png" build/Debug-iphonesimulator/Hackman.app/hack2.png
+s334016886.803398
+e334016886.825264
+r1
+xCpResource
+xHackman/Hackman Frames/hack2.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack2.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack2.png11c8cd76b1e8b341^4759d376b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack2.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack2.png" build/Debug-iphonesimulator/Hackman.app/hack2.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack2.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack2@2x.png" build/Debug-iphonesimulator/Hackman.app/hack2@2x.png
+s334016886.831444
+e334016886.849093
+r1
+xCpResource
+xHackman/Hackman Frames/hack2@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack2@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack2@2x.pngf9f8d476b1e8b341^ce6ed976b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack2@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack2@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack2@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack2@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack3.png" build/Debug-iphonesimulator/Hackman.app/hack3.png
+s334016886.851327
+e334016886.856173
+r1
+xCpResource
+xHackman/Hackman Frames/hack3.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack3.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack3.png280cda76b1e8b341^037cdb76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack3.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack3.png" build/Debug-iphonesimulator/Hackman.app/hack3.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack3.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack3@2x.png" build/Debug-iphonesimulator/Hackman.app/hack3@2x.png
+s334016886.858194
+e334016886.870382
+r1
+xCpResource
+xHackman/Hackman Frames/hack3@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack3@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack3@2x.pngd5cfdb76b1e8b341^e1ecde76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack3@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack3@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack3@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack3@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack4.png" build/Debug-iphonesimulator/Hackman.app/hack4.png
+s334016886.872022
+e334016886.877929
+r1
+xCpResource
+xHackman/Hackman Frames/hack4.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack4.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack4.png8e5cdf76b1e8b341^cadce076b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack4.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack4.png" build/Debug-iphonesimulator/Hackman.app/hack4.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack4.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack4@2x.png" build/Debug-iphonesimulator/Hackman.app/hack4@2x.png
+s334016886.880309
+e334016886.885786
+r1
+xCpResource
+xHackman/Hackman Frames/hack4@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack4@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack4@2x.png747be176b1e8b341^5bcde276b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack4@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack4@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack4@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack4@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack5.png" build/Debug-iphonesimulator/Hackman.app/hack5.png
+s334016886.888715
+e334016886.893007
+r1
+xCpResource
+xHackman/Hackman Frames/hack5.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack5.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack5.pngf9a0e376b1e8b341^68b1e476b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack5.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack5.png" build/Debug-iphonesimulator/Hackman.app/hack5.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack5.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack5@2x.png" build/Debug-iphonesimulator/Hackman.app/hack5@2x.png
+s334016886.895418
+e334016886.900640
+r1
+xCpResource
+xHackman/Hackman Frames/hack5@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack5@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack5@2x.png446be576b1e8b341^9faae676b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack5@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack5@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack5@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack5@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack6.png" build/Debug-iphonesimulator/Hackman.app/hack6.png
+s334016886.904753
+e334016886.909907
+r1
+xCpResource
+xHackman/Hackman Frames/hack6.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack6.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack6.pngc3bce776b1e8b341^ddefe876b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack6.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack6.png" build/Debug-iphonesimulator/Hackman.app/hack6.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack6.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack6@2x.png" build/Debug-iphonesimulator/Hackman.app/hack6@2x.png
+s334016886.912117
+e334016886.917341
+r1
+xCpResource
+xHackman/Hackman Frames/hack6@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack6@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack6@2x.png0ea2e976b1e8b341^b003eb76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack6@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack6@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack6@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack6@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack7.png" build/Debug-iphonesimulator/Hackman.app/hack7.png
+s334016886.920226
+e334016886.925439
+r1
+xCpResource
+xHackman/Hackman Frames/hack7.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack7.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/hack7.png63b7eb76b1e8b341^ef02ed76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack7.png00f4d86dddffdf42^465"CpResource "Hackman/Hackman Frames/hack7.png" build/Debug-iphonesimulator/Hackman.app/hack7.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack7.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource "Hackman/Hackman Frames/hack7@2x.png" build/Debug-iphonesimulator/Hackman.app/hack7@2x.png
+s334016886.927235
+e334016886.932159
+r1
+xCpResource
+xHackman/Hackman Frames/hack7@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/hack7@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/hack7@2x.png417fed76b1e8b341^a1a2ee76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/hack7@2x.png00f4d86dddffdf42^476"CpResource "Hackman/Hackman Frames/hack7@2x.png" "build/Debug-iphonesimulator/Hackman.app/hack7@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Hackman Frames/hack7@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/A.png build/Debug-iphonesimulator/Hackman.app/A.png
+s334016887.016548
+e334016887.034435
+r1
+xCpResource
+xHackman/A.png
+xbuild/Debug-iphonesimulator/Hackman.app/A.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/A.png5f5e0477b1e8b341^97532677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/A.png00f4d86dddffdf42^419"CpResource Hackman/A.png build/Debug-iphonesimulator/Hackman.app/A.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/A.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/B.png build/Debug-iphonesimulator/Hackman.app/B.png
+s334016887.036494
+e334016887.047086
+r1
+xCpResource
+xHackman/B.png
+xbuild/Debug-iphonesimulator/Hackman.app/B.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/B.png85770977b1e8b341^80602677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/B.png00f4d86dddffdf42^419"CpResource Hackman/B.png build/Debug-iphonesimulator/Hackman.app/B.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/B.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/C.png build/Debug-iphonesimulator/Hackman.app/C.png
+s334016887.049804
+e334016887.054213
+r1
+xCpResource
+xHackman/C.png
+xbuild/Debug-iphonesimulator/Hackman.app/C.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/C.png16df0c77b1e8b341^ad6d2677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/C.png00f4d86dddffdf42^419"CpResource Hackman/C.png build/Debug-iphonesimulator/Hackman.app/C.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/C.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/D.png build/Debug-iphonesimulator/Hackman.app/D.png
+s334016887.056247
+e334016887.060130
+r1
+xCpResource
+xHackman/D.png
+xbuild/Debug-iphonesimulator/Hackman.app/D.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/D.pngba850e77b1e8b341^c9762677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/D.png00f4d86dddffdf42^419"CpResource Hackman/D.png build/Debug-iphonesimulator/Hackman.app/D.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/D.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/E.png build/Debug-iphonesimulator/Hackman.app/E.png
+s334016887.061534
+e334016887.065527
+r1
+xCpResource
+xHackman/E.png
+xbuild/Debug-iphonesimulator/Hackman.app/E.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/E.pngd2e30f77b1e8b341^a27f2677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/E.png00f4d86dddffdf42^419"CpResource Hackman/E.png build/Debug-iphonesimulator/Hackman.app/E.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/E.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/F.png build/Debug-iphonesimulator/Hackman.app/F.png
+s334016887.068567
+e334016887.072617
+r1
+xCpResource
+xHackman/F.png
+xbuild/Debug-iphonesimulator/Hackman.app/F.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/F.png9fab1177b1e8b341^eb8d2677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/F.png00f4d86dddffdf42^419"CpResource Hackman/F.png build/Debug-iphonesimulator/Hackman.app/F.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/F.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/G.png build/Debug-iphonesimulator/Hackman.app/G.png
+s334016887.074045
+e334016887.165247
+r1
+xCpResource
+xHackman/G.png
+xbuild/Debug-iphonesimulator/Hackman.app/G.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/G.pngf92c1377b1e8b341^b43b6477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/G.png00f4d86dddffdf42^419"CpResource Hackman/G.png build/Debug-iphonesimulator/Hackman.app/G.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/G.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/H.png build/Debug-iphonesimulator/Hackman.app/H.png
+s334016887.166612
+e334016887.170195
+r1
+xCpResource
+xHackman/H.png
+xbuild/Debug-iphonesimulator/Hackman.app/H.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/H.png0ec02a77b1e8b341^b45a6477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/H.png00f4d86dddffdf42^419"CpResource Hackman/H.png build/Debug-iphonesimulator/Hackman.app/H.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/H.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/I.png build/Debug-iphonesimulator/Hackman.app/I.png
+s334016887.171528
+e334016887.175222
+r1
+xCpResource
+xHackman/I.png
+xbuild/Debug-iphonesimulator/Hackman.app/I.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/I.pngac032c77b1e8b341^1b666477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/I.png00f4d86dddffdf42^419"CpResource Hackman/I.png build/Debug-iphonesimulator/Hackman.app/I.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/I.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/J.png build/Debug-iphonesimulator/Hackman.app/J.png
+s334016887.176624
+e334016887.180134
+r1
+xCpResource
+xHackman/J.png
+xbuild/Debug-iphonesimulator/Hackman.app/J.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/J.pngef532d77b1e8b341^9f726477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/J.png00f4d86dddffdf42^419"CpResource Hackman/J.png build/Debug-iphonesimulator/Hackman.app/J.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/J.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/K.png build/Debug-iphonesimulator/Hackman.app/K.png
+s334016887.181319
+e334016887.190868
+r1
+xCpResource
+xHackman/K.png
+xbuild/Debug-iphonesimulator/Hackman.app/K.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/K.png0f7e2e77b1e8b341^3d816477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/K.png00f4d86dddffdf42^419"CpResource Hackman/K.png build/Debug-iphonesimulator/Hackman.app/K.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/K.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/L.png build/Debug-iphonesimulator/Hackman.app/L.png
+s334016887.194468
+e334016887.221950
+r1
+xCpResource
+xHackman/L.png
+xbuild/Debug-iphonesimulator/Hackman.app/L.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/L.png96e73177b1e8b341^df8a6477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/L.png00f4d86dddffdf42^419"CpResource Hackman/L.png build/Debug-iphonesimulator/Hackman.app/L.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/L.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/Logo@2x.png build/Debug-iphonesimulator/Hackman.app/Logo@2x.png
+s334016886.643807
+e334016886.662576
+r1
+xCpResource
+xHackman/Logo@2x.png
+xbuild/Debug-iphonesimulator/Hackman.app/Logo@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Hackman.app/Logo@2x.pnge1eea476b1e8b341^50c7cb76b1e8b341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Logo@2x.png00f4d86dddffdf42^443"CpResource "Hackman/Logo@2x.png" "build/Debug-iphonesimulator/Hackman.app/Logo@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Hackman/Hackman/Logo@2x.png" /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/M.png build/Debug-iphonesimulator/Hackman.app/M.png
+s334016887.224234
+e334016887.265300
+r1
+xCpResource
+xHackman/M.png
+xbuild/Debug-iphonesimulator/Hackman.app/M.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/M.pngdb863977b1e8b341^2d946477b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/M.png00f4d86dddffdf42^419"CpResource Hackman/M.png build/Debug-iphonesimulator/Hackman.app/M.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/M.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/N.png build/Debug-iphonesimulator/Hackman.app/N.png
+s334016887.729017
+e334016887.732227
+r1
+xCpResource
+xHackman/N.png
+xbuild/Debug-iphonesimulator/Hackman.app/N.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/N.png6bbaba77b1e8b341^cf69fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/N.png00f4d86dddffdf42^419"CpResource Hackman/N.png build/Debug-iphonesimulator/Hackman.app/N.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/N.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/O.png build/Debug-iphonesimulator/Hackman.app/O.png
+s334016887.734870
+e334016887.737923
+r1
+xCpResource
+xHackman/O.png
+xbuild/Debug-iphonesimulator/Hackman.app/O.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/O.pngc138bc77b1e8b341^5871fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/O.png00f4d86dddffdf42^419"CpResource Hackman/O.png build/Debug-iphonesimulator/Hackman.app/O.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/O.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/P.png build/Debug-iphonesimulator/Hackman.app/P.png
+s334016887.739138
+e334016887.741966
+r1
+xCpResource
+xHackman/P.png
+xbuild/Debug-iphonesimulator/Hackman.app/P.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/P.pngd34ebd77b1e8b341^5376fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/P.png00f4d86dddffdf42^419"CpResource Hackman/P.png build/Debug-iphonesimulator/Hackman.app/P.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/P.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/Q.png build/Debug-iphonesimulator/Hackman.app/Q.png
+s334016887.743469
+e334016887.747459
+r1
+xCpResource
+xHackman/Q.png
+xbuild/Debug-iphonesimulator/Hackman.app/Q.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/Q.png9c6dbe77b1e8b341^5b7cfa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Q.png00f4d86dddffdf42^419"CpResource Hackman/Q.png build/Debug-iphonesimulator/Hackman.app/Q.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/Q.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/R.png build/Debug-iphonesimulator/Hackman.app/R.png
+s334016887.748768
+e334016887.751477
+r1
+xCpResource
+xHackman/R.png
+xbuild/Debug-iphonesimulator/Hackman.app/R.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/R.png87c2bf77b1e8b341^6a84fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/R.png00f4d86dddffdf42^419"CpResource Hackman/R.png build/Debug-iphonesimulator/Hackman.app/R.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/R.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/S.png build/Debug-iphonesimulator/Hackman.app/S.png
+s334016887.752740
+e334016887.755898
+r1
+xCpResource
+xHackman/S.png
+xbuild/Debug-iphonesimulator/Hackman.app/S.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/S.png36ccc077b1e8b341^e38bfa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/S.png00f4d86dddffdf42^419"CpResource Hackman/S.png build/Debug-iphonesimulator/Hackman.app/S.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/S.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/T.png build/Debug-iphonesimulator/Hackman.app/T.png
+s334016887.757297
+e334016887.761243
+r1
+xCpResource
+xHackman/T.png
+xbuild/Debug-iphonesimulator/Hackman.app/T.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/T.png022cc277b1e8b341^cd90fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/T.png00f4d86dddffdf42^419"CpResource Hackman/T.png build/Debug-iphonesimulator/Hackman.app/T.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/T.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/U.png build/Debug-iphonesimulator/Hackman.app/U.png
+s334016887.762527
+e334016887.765989
+r1
+xCpResource
+xHackman/U.png
+xbuild/Debug-iphonesimulator/Hackman.app/U.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/U.pnga148c377b1e8b341^ee94fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/U.png00f4d86dddffdf42^419"CpResource Hackman/U.png build/Debug-iphonesimulator/Hackman.app/U.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/U.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/V.png build/Debug-iphonesimulator/Hackman.app/V.png
+s334016887.767183
+e334016887.770503
+r1
+xCpResource
+xHackman/V.png
+xbuild/Debug-iphonesimulator/Hackman.app/V.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/V.png297ac477b1e8b341^2c9afa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/V.png00f4d86dddffdf42^419"CpResource Hackman/V.png build/Debug-iphonesimulator/Hackman.app/V.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/V.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/W.png build/Debug-iphonesimulator/Hackman.app/W.png
+s334016887.771851
+e334016887.775455
+r1
+xCpResource
+xHackman/W.png
+xbuild/Debug-iphonesimulator/Hackman.app/W.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/W.pngb8b1c577b1e8b341^4d9efa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/W.png00f4d86dddffdf42^419"CpResource Hackman/W.png build/Debug-iphonesimulator/Hackman.app/W.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/W.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/X.png build/Debug-iphonesimulator/Hackman.app/X.png
+s334016887.776770
+e334016887.780389
+r1
+xCpResource
+xHackman/X.png
+xbuild/Debug-iphonesimulator/Hackman.app/X.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/X.png24edc677b1e8b341^d3a2fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/X.png00f4d86dddffdf42^419"CpResource Hackman/X.png build/Debug-iphonesimulator/Hackman.app/X.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/X.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/Y.png build/Debug-iphonesimulator/Hackman.app/Y.png
+s334016887.781681
+e334016887.785166
+r1
+xCpResource
+xHackman/Y.png
+xbuild/Debug-iphonesimulator/Hackman.app/Y.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/Y.pngdb32c877b1e8b341^48a7fa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Y.png00f4d86dddffdf42^419"CpResource Hackman/Y.png build/Debug-iphonesimulator/Hackman.app/Y.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/Y.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/Z.png build/Debug-iphonesimulator/Hackman.app/Z.png
+s334016887.786526
+e334016887.790006
+r1
+xCpResource
+xHackman/Z.png
+xbuild/Debug-iphonesimulator/Hackman.app/Z.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Hackman.app/Z.png9b76c977b1e8b341^47abfa77b1e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Z.png00f4d86dddffdf42^419"CpResource Hackman/Z.png build/Debug-iphonesimulator/Hackman.app/Z.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/Z.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/about1.png build/Debug-iphonesimulator/Hackman.app/about1.png
+s334016886.458804
+e334016886.591811
+r1
+xCpResource
+xHackman/about1.png
+xbuild/Debug-iphonesimulator/Hackman.app/about1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/Hackman.app/about1.png6d907576b1e8b341^5452a776b1e8b341^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/about1.png00f4d86dddffdf42^434"CpResource Hackman/about1.png build/Debug-iphonesimulator/Hackman.app/about1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/about1.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/background.png build/Debug-iphonesimulator/Hackman.app/background.png
+s334016885.901553
+e334016886.405228
+r1
+xCpResource
+xHackman/background.png
+xbuild/Debug-iphonesimulator/Hackman.app/background.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Hackman.app/background.pnge6e7e675b1e8b341^e02ea776b1e8b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/background.png00f4d86dddffdf42^446"CpResource Hackman/background.png build/Debug-iphonesimulator/Hackman.app/background.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/background.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/button-red.png build/Debug-iphonesimulator/Hackman.app/button-red.png
+s334016886.986213
+e334016887.000419
+r1
+xCpResource
+xHackman/button-red.png
+xbuild/Debug-iphonesimulator/Hackman.app/button-red.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Hackman.app/button-red.pngc498fc76b1e8b341^e0112577b1e8b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/button-red.png00f4d86dddffdf42^446"CpResource Hackman/button-red.png build/Debug-iphonesimulator/Hackman.app/button-red.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/button-red.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/category.png build/Debug-iphonesimulator/Hackman.app/category.png
+s334016887.002977
+e334016887.014427
+r1
+xCpResource
+xHackman/category.png
+xbuild/Debug-iphonesimulator/Hackman.app/category.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/category.png5de20077b1e8b341^bd372677b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/category.png00f4d86dddffdf42^440"CpResource Hackman/category.png build/Debug-iphonesimulator/Hackman.app/category.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/category.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/options1.png build/Debug-iphonesimulator/Hackman.app/options1.png
+s334016886.593472
+e334016886.633846
+r1
+xCpResource
+xHackman/options1.png
+xbuild/Debug-iphonesimulator/Hackman.app/options1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Hackman.app/options1.png95109876b1e8b341^795da776b1e8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/options1.png00f4d86dddffdf42^440"CpResource Hackman/options1.png build/Debug-iphonesimulator/Hackman.app/options1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/options1.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CCpResource Hackman/play1.png build/Debug-iphonesimulator/Hackman.app/play1.png
+s334016886.636087
+e334016886.641151
+r1
+xCpResource
+xHackman/play1.png
+xbuild/Debug-iphonesimulator/Hackman.app/play1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Hackman.app/play1.png6309a376b1e8b341^8869a776b1e8b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/play1.png00f4d86dddffdf42^431"CpResource Hackman/play1.png build/Debug-iphonesimulator/Hackman.app/play1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Hackman/Hackman/play1.png /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
+CGenerateDSYMFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+s334022787.024536
+e334022787.194531
+r1
+xGenerateDSYMFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Generating /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYMb35c0683c8e8b341^9bcb3183c8e8b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM/0000000000000000^433"GenerateDSYMFile build/Debug-iphonesimulator/Hackman.app.dSYM build/Debug-iphonesimulator/Hackman.app/Hackman    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman -o /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app.dSYM
+
+CLd /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman normal i386
+s334022786.341933
+e334022787.017406
+r1
+xLd
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman0da85782c8e8b341^cd730483c8e8b341^---0#0#0#--890"Ld build/Debug-iphonesimulator/Hackman.app/Hackman normal i386    cd /Developer/Hackman    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Developer/Hackman/build/Debug-iphonesimulator -F/Developer/Hackman/build/Debug-iphonesimulator -filelist /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Objects-normal/i386/Hackman.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Hackman
+
+CProcessInfoPlistFile /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Info.plist Hackman/Hackman-Info.plist
+s334016742.814177
+e334016742.819630
+r1
+xProcessInfoPlistFile
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Info.plist
+xHackman/Hackman-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Hackman/Hackman-Info.plistf581d0e6b0e8b341^39d2d1e6b0e8b341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/Hackman-Info.plist0000000000000000^526"ProcessInfoPlistFile build/Debug-iphonesimulator/Hackman.app/Info.plist Hackman/Hackman-Info.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Hackman/Hackman-Info.plist -genpkginfo /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app/Info.plist
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Hackman-elvenxhyeeisbobhogouvmlqpztc/Index/PrecompiledHeaders/Hackman-Prefix-axfiwtxtxycsvybrsbxijctgmeut_ast/Hackman-Prefix.pch.pth Hackman/Hackman-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s334016742.828683
+e334016753.109590
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch
+xHackman/Hackman-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Hackman/Hackman-Prefix.pch753ed4e6b0e8b341^a60c1cf1b0e8b341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/Hackman-Prefix.pch0000000000000000^1881"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphonesimulator/include -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources/i386 -I/Developer/Hackman/build/Hackman.build/Debug-iphonesimulator/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphonesimulator -c /Developer/Hackman/Hackman/Hackman-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-bjcthfopwsnzpafdfwitzcqbklhv/Hackman-Prefix.pch.gch
+
+CTouch /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+s334022787.228824
+e334022787.251492
+r1
+xTouch
+x/Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Touch /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app59a73a83c8e8b341^e0674083c8e8b341^---0#0#0#--284"Touch build/Debug-iphonesimulator/Hackman.app    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Hackman/build/Debug-iphonesimulator/Hackman.app
+
