@@ -1,0 +1,2044 @@
+THackman
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Hackman.app/ResourceRules.plist
+cProcessInfoPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Info.plist Hackman/Hackman-Info.plist
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o /Developer/Hackman/Hackman/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o /Developer/Hackman/Hackman/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o /Developer/Hackman/Hackman/../OptionsViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o /Developer/Hackman/Hackman/IAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o /Developer/Hackman/Hackman/HackmanIAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o /Developer/Hackman/MBProgressHUD/MBProgressHUD.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o /Developer/Hackman/Hackman/Reachability.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o /Developer/Hackman/Hackman/GCHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o /Developer/Hackman/Hackman/GameState.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o /Developer/Hackman/Hackman/GCDatabase.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o /Developer/Hackman/Hackman/../OptionsViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman normal armv6
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o /Developer/Hackman/Hackman/IAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o /Developer/Hackman/Hackman/HackmanIAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o /Developer/Hackman/MBProgressHUD/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o /Developer/Hackman/Hackman/Reachability.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o /Developer/Hackman/Hackman/GCHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o /Developer/Hackman/Hackman/GameState.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o /Developer/Hackman/Hackman/GCDatabase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman normal armv7
+cCreateUniversalBinary /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman normal "armv6 armv7"
+cGenerateDSYMFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+cCompileXIB /Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+cCopyStringsFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings
+cCompileXIB /Developer/Hackman/Hackman/MainViewController.xib
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/background.png Hackman/background.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/about1.png Hackman/about1.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/options1.png Hackman/options1.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Logo@2x.png Hackman/Logo@2x.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/play1.png Hackman/play1.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1.png "Hackman/Hackman Frames/hack1.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2.png "Hackman/Hackman Frames/hack2.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1@2x.png "Hackman/Hackman Frames/hack1@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2@2x.png "Hackman/Hackman Frames/hack2@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3.png "Hackman/Hackman Frames/hack3.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3@2x.png "Hackman/Hackman Frames/hack3@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4.png "Hackman/Hackman Frames/hack4.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4@2x.png "Hackman/Hackman Frames/hack4@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5.png "Hackman/Hackman Frames/hack5.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5@2x.png "Hackman/Hackman Frames/hack5@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6.png "Hackman/Hackman Frames/hack6.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6@2x.png "Hackman/Hackman Frames/hack6@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7.png "Hackman/Hackman Frames/hack7.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/category.png Hackman/category.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7@2x.png "Hackman/Hackman Frames/hack7@2x.png"
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/A.png Hackman/A.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/B.png Hackman/B.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/C.png Hackman/C.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/D.png Hackman/D.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/E.png Hackman/E.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/F.png Hackman/F.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/G.png Hackman/G.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/H.png Hackman/H.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/I.png Hackman/I.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/J.png Hackman/J.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/K.png Hackman/K.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/L.png Hackman/L.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/M.png Hackman/M.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/N.png Hackman/N.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/O.png Hackman/O.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/P.png Hackman/P.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Q.png Hackman/Q.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/R.png Hackman/R.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/S.png Hackman/S.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/T.png Hackman/T.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/V.png Hackman/V.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/U.png Hackman/U.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/W.png Hackman/W.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/X.png Hackman/X.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Y.png Hackman/Y.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Z.png Hackman/Z.png
+cCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/button-red.png Hackman/button-red.png
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups.plist Hackman/startups.plist
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/person.plist Hackman/person.plist
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage.plist Hackman/planguage.plist
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups-paid.plist Hackman/startups-paid.plist
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/person-paid.plist Hackman/person-paid.plist
+cCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage-paid.plist Hackman/planguage-paid.plist
+cProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+cTouch /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent
+cCodeSign /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+
+N/Developer/Hackman/Hackman/../OptionsViewController.h
+c000000004E3B0DDE0000000000000216
+t1312493022
+s534
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+i"MBProgressHUD.h"
+
+N/Developer/Hackman/Hackman/../OptionsViewController.m
+c000000004E3BEE8300000000000030B8
+t1312550531
+s12472
+i"OptionsViewController.h"
+i"Reachability.h"
+i"HackmanIAPHelper.h"
+i"GCHelper.h"
+
+N/Developer/Hackman/Hackman/A.png
+c000000004E3849860000000000000B37
+t1312311686
+s2871
+
+N/Developer/Hackman/Hackman/B.png
+c000000004E38750A0000000000000B39
+t1312322826
+s2873
+
+N/Developer/Hackman/Hackman/C.png
+c000000004E3875200000000000000B30
+t1312322848
+s2864
+
+N/Developer/Hackman/Hackman/D.png
+c000000004E38753A0000000000000B3B
+t1312322874
+s2875
+
+N/Developer/Hackman/Hackman/E.png
+c000000004E38754E0000000000000B1B
+t1312322894
+s2843
+
+N/Developer/Hackman/Hackman/F.png
+c000000004E38756D0000000000000B1C
+t1312322925
+s2844
+
+N/Developer/Hackman/Hackman/G.png
+c000000004E3875830000000000000B2E
+t1312322947
+s2862
+
+N/Developer/Hackman/Hackman/GCDatabase.h
+c000000004E3BF9010000000000000135
+t1312553217
+s309
+i<Foundation/Foundation.h>
+
+N/Developer/Hackman/Hackman/GCDatabase.m
+c000000004E3B72DD000000000000053A
+t1312518877
+s1338
+i"GCDatabase.h"
+
+N/Developer/Hackman/Hackman/GCHelper.h
+c000000004E3B0E5A0000000000000594
+t1312493146
+s1428
+i<Foundation/Foundation.h>
+i<GameKit/GameKit.h>
+
+N/Developer/Hackman/Hackman/GCHelper.m
+c000000004E3B3D5700000000000015DB
+t1312505175
+s5595
+i"GCHelper.h"
+i"GCDatabase.h"
+
+N/Developer/Hackman/Hackman/GameState.h
+c000000004E3AD65700000000000002D3
+t1312478807
+s723
+i<Foundation/Foundation.h>
+
+N/Developer/Hackman/Hackman/GameState.m
+c000000004E3AE2B10000000000000872
+t1312481969
+s2162
+i"GameState.h"
+i"GCDatabase.h"
+
+N/Developer/Hackman/Hackman/GameViewController.h
+c000000004E3BEE4D0000000000000502
+t1312550477
+s1282
+i<UIKit/UIKit.h>
+i"MBProgressHUD.h"
+
+N/Developer/Hackman/Hackman/GameViewController.m
+c000000004E3BF90B0000000000003766
+t1312553227
+s14182
+i"GameViewController.h"
+i"HackmanIAPHelper.h"
+i"GCHelper.h"
+i<stdlib.h>
+
+N/Developer/Hackman/Hackman/H.png
+c000000004E3875940000000000000B2A
+t1312322964
+s2858
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack1.png
+c000000004E371E600000000000001592
+t1312235104
+s5522
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack1@2x.png
+c000000004E371CE700000000000010DC
+t1312234727
+s4316
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack2.png
+c000000004E371E2300000000000019F4
+t1312235043
+s6644
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack2@2x.png
+c000000004E371D0400000000000015C1
+t1312234756
+s5569
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack3.png
+c000000004E371E130000000000001AAE
+t1312235027
+s6830
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack3@2x.png
+c000000004E371D0F00000000000015D1
+t1312234767
+s5585
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack4.png
+c000000004E371DFC0000000000001D23
+t1312235004
+s7459
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack4@2x.png
+c000000004E371D2400000000000018EE
+t1312234788
+s6382
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack5.png
+c000000004E371DE20000000000001F7A
+t1312234978
+s8058
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack5@2x.png
+c000000004E371D330000000000001B5D
+t1312234803
+s7005
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack6.png
+c000000004E371DC60000000000002092
+t1312234950
+s8338
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack6@2x.png
+c000000004E371D4B0000000000001C81
+t1312234827
+s7297
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack7.png
+c000000004E371DA60000000000002175
+t1312234918
+s8565
+
+N/Developer/Hackman/Hackman/Hackman Frames/hack7@2x.png
+c000000004E371D590000000000001F2B
+t1312234841
+s7979
+
+N/Developer/Hackman/Hackman/Hackman-Prefix.pch
+c000000004E36080E0000000000000140
+t1312163854
+s320
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Developer/Hackman/Hackman/HackmanAppDelegate.h
+c000000004E36080F0000000000000135
+t1312163855
+s309
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/HackmanAppDelegate.m
+c000000004E3B7FB20000000000000AC2
+t1312522162
+s2754
+i"HackmanAppDelegate.h"
+i"HackmanIAPHelper.h"
+i"MainViewController.h"
+i"GCHelper.h"
+
+N/Developer/Hackman/Hackman/HackmanIAPHelper.h
+c000000004E39EA58000000000000012E
+t1312418392
+s302
+i<Foundation/Foundation.h>
+i"IAPHelper.h"
+
+N/Developer/Hackman/Hackman/HackmanIAPHelper.m
+c000000004E3B6DBA0000000000000317
+t1312517562
+s791
+i"HackmanIAPHelper.h"
+
+N/Developer/Hackman/Hackman/I.png
+c000000004E3875AA0000000000000B0B
+t1312322986
+s2827
+
+N/Developer/Hackman/Hackman/IAPHelper.h
+c000000004E3B6C5200000000000003D0
+t1312517202
+s976
+i<Foundation/Foundation.h>
+i"StoreKit/StoreKit.h"
+
+N/Developer/Hackman/Hackman/IAPHelper.m
+c000000004E3B71BF00000000000012AA
+t1312518591
+s4778
+i"IAPHelper.h"
+
+N/Developer/Hackman/Hackman/J.png
+c000000004E3875BC0000000000000B1C
+t1312323004
+s2844
+
+N/Developer/Hackman/Hackman/K.png
+c000000004E3875D80000000000000B3E
+t1312323032
+s2878
+
+N/Developer/Hackman/Hackman/L.png
+c000000004E3875E70000000000000B12
+t1312323047
+s2834
+
+N/Developer/Hackman/Hackman/Logo@2x.png
+c000000004E3790A7000000000000414C
+t1312264359
+s16716
+
+N/Developer/Hackman/Hackman/M.png
+c000000004E3875FA0000000000000B31
+t1312323066
+s2865
+
+N/Developer/Hackman/Hackman/MainViewController.h
+c000000004E37949C00000000000001E1
+t1312265372
+s481
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/MainViewController.m
+c000000004E3AF36A00000000000009C6
+t1312486250
+s2502
+i"MainViewController.h"
+i"GameViewController.h"
+i"OptionsViewController.h"
+
+N/Developer/Hackman/Hackman/MainViewController.xib
+c000000004E37969B0000000000003EE2
+t1312265883
+s16098
+
+N/Developer/Hackman/Hackman/N.png
+c000000004E3876160000000000000B30
+t1312323094
+s2864
+
+N/Developer/Hackman/Hackman/O.png
+c000000004E3876350000000000000B35
+t1312323125
+s2869
+
+N/Developer/Hackman/Hackman/P.png
+c000000004E38764A0000000000000B38
+t1312323146
+s2872
+
+N/Developer/Hackman/Hackman/Q.png
+c000000004E38765D0000000000000B3F
+t1312323165
+s2879
+
+N/Developer/Hackman/Hackman/R.png
+c000000004E3876720000000000000B3F
+t1312323186
+s2879
+
+N/Developer/Hackman/Hackman/Reachability.h
+c000000004C34EF790000000000000F1B
+t1278537593
+s3867
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Developer/Hackman/Hackman/Reachability.m
+c000000004C34EF79000000000000239B
+t1278537593
+s9115
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Developer/Hackman/Hackman/S.png
+c000000004E3876890000000000000B56
+t1312323209
+s2902
+
+N/Developer/Hackman/Hackman/T.png
+c000000004E3876A00000000000000B1F
+t1312323232
+s2847
+
+N/Developer/Hackman/Hackman/U.png
+c000000004E3876B40000000000000B39
+t1312323252
+s2873
+
+N/Developer/Hackman/Hackman/V.png
+c000000004E3876CA0000000000000B40
+t1312323274
+s2880
+
+N/Developer/Hackman/Hackman/W.png
+c000000004E3876E50000000000000B32
+t1312323301
+s2866
+
+N/Developer/Hackman/Hackman/X.png
+c000000004E3876F40000000000000B4C
+t1312323316
+s2892
+
+N/Developer/Hackman/Hackman/Y.png
+c000000004E3877080000000000000B42
+t1312323336
+s2882
+
+N/Developer/Hackman/Hackman/Z.png
+c000000004E3877160000000000000B32
+t1312323350
+s2866
+
+N/Developer/Hackman/Hackman/about1.png
+c000000004E35D4E00000000000002652
+t1312150752
+s9810
+
+N/Developer/Hackman/Hackman/background.png
+c000000004E34F8EE000000000000ED1C
+t1312094446
+s60700
+
+N/Developer/Hackman/Hackman/button-red.png
+c000000004E38B1FE0000000000000B49
+t1312338430
+s2889
+
+N/Developer/Hackman/Hackman/category.png
+c000000004E3846AF0000000000000B99
+t1312310959
+s2969
+
+N/Developer/Hackman/Hackman/en.lproj/InfoPlist.strings
+c000000004E36080E000000000000002D
+t1312163854
+s45
+
+N/Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+c000000004E3790A40000000000002086
+t1312264356
+s8326
+
+N/Developer/Hackman/Hackman/main.m
+c000000004E36080E000000000000016C
+t1312163854
+s364
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/Hackman/options1.png
+c000000004E35D4BA000000000000294E
+t1312150714
+s10574
+
+N/Developer/Hackman/Hackman/person-paid.plist
+c000000004E3B6E680000000000000327
+t1312517736
+s807
+
+N/Developer/Hackman/Hackman/person.plist
+c000000004E3BF1BB0000000000000236
+t1312551355
+s566
+
+N/Developer/Hackman/Hackman/planguage-paid.plist
+c000000004E3B69AB0000000000000579
+t1312516523
+s1401
+
+N/Developer/Hackman/Hackman/planguage.plist
+c000000004E3B69AB00000000000001EB
+t1312516523
+s491
+
+N/Developer/Hackman/Hackman/play1.png
+c000000004E35D49F0000000000001D2A
+t1312150687
+s7466
+
+N/Developer/Hackman/Hackman/startups-paid.plist
+c000000004E3B6E68000000000000065F
+t1312517736
+s1631
+
+N/Developer/Hackman/Hackman/startups.plist
+c000000004E3BF4510000000000000212
+t1312552017
+s530
+
+N/Developer/Hackman/MBProgressHUD/MBProgressHUD.h
+c000000004E397F0B000000000000325B
+t1312390923
+s12891
+i<UIKit/UIKit.h>
+
+N/Developer/Hackman/MBProgressHUD/MBProgressHUD.m
+c000000004E08811E0000000000005826
+t1309180190
+s22566
+i"MBProgressHUD.h"
+
+N/Developer/Hackman/OptionsViewController.h
+c000000004E3B0DDE0000000000000216
+t1312493022
+s534
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+i"MBProgressHUD.h"
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/A.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/B.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/C.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/D.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/E.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/F.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/G.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/H.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/I.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Info.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/J.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/K.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/L.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Logo@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/M.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/MainViewController.nib
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/N.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/O.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/P.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/PkgInfo
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Q.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/R.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/ResourceRules.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/S.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/T.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/U.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/V.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/W.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/X.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Y.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Z.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/about1.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/background.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/button-red.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/category.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7@2x.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/options1.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/person-paid.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/person.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage-paid.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/play1.png
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups-paid.plist
+t2
+s0
+
+N/Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups.plist
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman.LinkFileList
+c000000004E3BF91600000000000004EC
+t1312553238
+s1260
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman.LinkFileList
+c000000004E3BF91600000000000004EC
+t1312553238
+s1260
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o
+t2
+s0
+
+N/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004E2732380000000000000110
+t1311191608
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D93DFEB0000000000000AB3
+t1301536747
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93E13C00000000003532B0
+t1301537084
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004D99FEE900000000002A85D0
+t1301937897
+s2786768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004D99FED00000000000000348
+t1301937872
+s840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E5B7000000000026CB10
+t1301538231
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h
+c000000004D99FE06000000000000016E
+t1301937670
+s366
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c000000004D99FE08000000000001C8E0
+t1301937672
+s116960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D93E1420000000000001A58
+t1301537090
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D93E14E00000000000B0CA0
+t1301537102
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D99FAFA0000000000CA2AE0
+t1301936890
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/arpa/inet.h
+c000000004D93D5EB0000000000001533
+t1301534187
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/ifaddrs.h
+c000000004D93D5EB00000000000008F5
+t1301534187
+s2293
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netdb.h
+c000000004D93D5EB000000000000307F
+t1301534187
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet/in.h
+c000000004D93DB990000000000006BAC
+t1301535641
+s27564
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet6/in6.h
+c000000004D93DB99000000000000638F
+t1301535641
+s25487
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/socket.h
+c000000004D93DBA00000000000005ACF
+t1301535648
+s23247
+
+N/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision
+c000000004E3A074C0000000000001D31
+t1312425804
+s7473
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch
+t2
+s0
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch
+t2
+s0
+
+NHackman/Hackman-Info.plist
+c000000004E3A069D0000000000000427
+t1312425629
+s1063
+
+CBuild AST from /Developer/Hackman/Hackman/../OptionsViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/GCDatabase.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/GCHelper.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/GameState.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/GameViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/HackmanAppDelegate.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/HackmanIAPHelper.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/IAPHelper.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/MainViewController.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/Reachability.m
+r0
+
+CBuild AST from /Developer/Hackman/Hackman/main.m
+r0
+
+CBuild AST from /Developer/Hackman/MBProgressHUD/MBProgressHUD.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc748169630ecb341^38f49e9630ecb341^---0#1#0#--18"Check dependencies
+
+CCodeSign /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+s334246069.505159
+e334246070.436958
+r1
+xCodeSign
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CodeSign build/Debug-iphoneos/Hackman.appba6781b530ecb341^16dc6fb630ecb341^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Developer/Hackman/build/Debug-iphoneos/Hackman.app/0000000000000000^622"CodeSign build/Debug-iphoneos/Hackman.app    cd /Developer/Hackman    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Aditya Herlambang (4XAK25RS9T)" --resource-rules=/Developer/Hackman/build/Debug-iphoneos/Hackman.app/ResourceRules.plist --entitlements /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o /Developer/Hackman/Hackman/GCDatabase.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.712897
+e334246050.802895
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o
+x/Developer/Hackman/Hackman/GCDatabase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Hackman/Hackman/GCDatabase.m01a4b6a230ecb341^2789cda230ecb341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Hackman/Hackman/GCDatabase.m0000000000000000^1706"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o Hackman/GCDatabase.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GCDatabase.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCDatabase.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o /Developer/Hackman/Hackman/GCHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.478926
+e334246050.734726
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o
+x/Developer/Hackman/Hackman/GCHelper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Developer/Hackman/Hackman/GCHelper.m9d9d84a230ecb341^b115bca230ecb341^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/Hackman/Hackman/GCHelper.m0000000000000000^1698"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o Hackman/GCHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GCHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GCHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o /Developer/Hackman/Hackman/GameState.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.596912
+e334246050.711558
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o
+x/Developer/Hackman/Hackman/GameState.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Hackman/Hackman/GameState.mefe798a230ecb341^cc24b6a230ecb341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/GameState.m0000000000000000^1702"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o Hackman/GameState.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GameState.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameState.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.635914
+e334246049.995657
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o
+x/Developer/Hackman/Hackman/GameViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/GameViewController.m17f0a2a130ecb341^bde1fea130ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/GameViewController.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o Hackman/GameViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GameViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/GameViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.543536
+e334246049.634464
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o
+x/Developer/Hackman/Hackman/HackmanAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/HackmanAppDelegate.mc74b8ba130ecb341^556aa2a130ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o Hackman/HackmanAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/HackmanAppDelegate.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanAppDelegate.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o /Developer/Hackman/Hackman/HackmanIAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.157864
+e334246050.243482
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o
+x/Developer/Hackman/Hackman/HackmanIAPHelper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Developer/Hackman/Hackman/HackmanIAPHelper.m218f28a230ecb341^d55c3ea230ecb341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/HackmanIAPHelper.m0000000000000000^1730"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o Hackman/HackmanIAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/HackmanIAPHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/HackmanIAPHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o /Developer/Hackman/Hackman/IAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.997008
+e334246050.264580
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o
+x/Developer/Hackman/Hackman/IAPHelper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Hackman/Hackman/IAPHelper.mb1de00a230ecb341^f1bd43a230ecb341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/IAPHelper.m0000000000000000^1702"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o Hackman/IAPHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/IAPHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/IAPHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o /Developer/Hackman/MBProgressHUD/MBProgressHUD.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.245222
+e334246050.595594
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o
+x/Developer/Hackman/MBProgressHUD/MBProgressHUD.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Developer/Hackman/MBProgressHUD/MBProgressHUD.m01f93ea230ecb341^537898a230ecb341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Hackman/MBProgressHUD/MBProgressHUD.m0000000000000000^1730"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o MBProgressHUD/MBProgressHUD.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/MBProgressHUD/MBProgressHUD.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MBProgressHUD.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.570743
+e334246049.682625
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o
+x/Developer/Hackman/Hackman/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/MainViewController.m6c4292a130ecb341^77bfaea130ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/MainViewController.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o Hackman/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/MainViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/MainViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o /Developer/Hackman/Hackman/../OptionsViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.683940
+e334246050.156337
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o
+x/Developer/Hackman/Hackman/../OptionsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Developer/Hackman/Hackman/../OptionsViewController.md331afa130ecb341^100428a230ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/../OptionsViewController.m0000000000000000^1756"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o Hackman/../OptionsViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/../OptionsViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/OptionsViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o /Developer/Hackman/Hackman/Reachability.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246050.266075
+e334246050.477519
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o
+x/Developer/Hackman/Hackman/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Hackman/Hackman/Reachability.m1e4e44a230ecb341^329384a230ecb341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/Reachability.m0000000000000000^1714"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o Hackman/Reachability.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/Reachability.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Reachability.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o /Developer/Hackman/Hackman/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246049.479441
+e334246049.569468
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o
+x/Developer/Hackman/Hackman/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Developer/Hackman/Hackman/main.m56d67aa130ecb341^f8c591a130ecb341^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Developer/Hackman/Hackman/main.m0000000000000000^1682"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o Hackman/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/main.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/main.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o /Developer/Hackman/Hackman/GCDatabase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246053.006593
+e334246053.058414
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o
+x/Developer/Hackman/Hackman/GCDatabase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Hackman/Hackman/GCDatabase.m11c801a530ecb341^2cf30ea530ecb341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Hackman/Hackman/GCDatabase.m0000000000000000^1706"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o Hackman/GCDatabase.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GCDatabase.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCDatabase.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o /Developer/Hackman/Hackman/GCHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.828564
+e334246052.927573
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o
+x/Developer/Hackman/Hackman/GCHelper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Developer/Hackman/Hackman/GCHelper.m8736d4a430ecb341^4f74eda430ecb341^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/Hackman/Hackman/GCHelper.m0000000000000000^1698"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o Hackman/GCHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GCHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GCHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o /Developer/Hackman/Hackman/GameState.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.928874
+e334246053.005238
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o
+x/Developer/Hackman/Hackman/GameState.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Hackman/Hackman/GameState.mcdeaeda430ecb341^195601a530ecb341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/GameState.m0000000000000000^1702"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o Hackman/GameState.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GameState.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameState.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o /Developer/Hackman/Hackman/GameViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246050.736198
+e334246050.987449
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o
+x/Developer/Hackman/Hackman/GameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/GameViewController.m5c91bca230ecb341^26c8fca230ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/GameViewController.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o Hackman/GameViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/GameViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/GameViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o /Developer/Hackman/Hackman/HackmanAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246048.840652
+e334246049.478120
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o
+x/Developer/Hackman/Hackman/HackmanAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/HackmanAppDelegate.ma453d7a030ecb341^b2647aa130ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/HackmanAppDelegate.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o Hackman/HackmanAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/HackmanAppDelegate.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanAppDelegate.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o /Developer/Hackman/Hackman/HackmanIAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.401763
+e334246052.494497
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o
+x/Developer/Hackman/Hackman/HackmanIAPHelper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Developer/Hackman/Hackman/HackmanIAPHelper.mb5fa66a430ecb341^a7957ea430ecb341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/HackmanIAPHelper.m0000000000000000^1730"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o Hackman/HackmanIAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/HackmanIAPHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/HackmanIAPHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o /Developer/Hackman/Hackman/IAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.312108
+e334246052.400418
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o
+x/Developer/Hackman/Hackman/IAPHelper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Hackman/Hackman/IAPHelper.md2fe4fa430ecb341^e57f66a430ecb341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/IAPHelper.m0000000000000000^1702"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o Hackman/IAPHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/IAPHelper.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/IAPHelper.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o /Developer/Hackman/MBProgressHUD/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.496074
+e334246052.733590
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o
+x/Developer/Hackman/MBProgressHUD/MBProgressHUD.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Developer/Hackman/MBProgressHUD/MBProgressHUD.mf9157fa430ecb341^a7cabba430ecb341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Hackman/MBProgressHUD/MBProgressHUD.m0000000000000000^1730"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o MBProgressHUD/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/MBProgressHUD/MBProgressHUD.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MBProgressHUD.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o /Developer/Hackman/Hackman/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246048.840623
+e334246049.542070
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o
+x/Developer/Hackman/Hackman/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Hackman/Hackman/MainViewController.mb553d7a030ecb341^98c38aa130ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/MainViewController.m0000000000000000^1738"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o Hackman/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/MainViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/MainViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o /Developer/Hackman/Hackman/../OptionsViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246050.804329
+e334246051.046773
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o
+x/Developer/Hackman/Hackman/../OptionsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Developer/Hackman/Hackman/../OptionsViewController.mc40bcea230ecb341^f0f70ba330ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/../OptionsViewController.m0000000000000000^1756"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o Hackman/../OptionsViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/../OptionsViewController.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/OptionsViewController.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o /Developer/Hackman/Hackman/Reachability.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246052.734947
+e334246052.827142
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o
+x/Developer/Hackman/Hackman/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Hackman/Hackman/Reachability.m573dbca430ecb341^c1c4d3a430ecb341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/Reachability.m0000000000000000^1714"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o Hackman/Reachability.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/Reachability.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Reachability.o
+
+CCompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o /Developer/Hackman/Hackman/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246048.840631
+e334246049.469726
+r1
+xCompileC
+xbuild/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o
+x/Developer/Hackman/Hackman/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Developer/Hackman/Hackman/main.mb54fd7a030ecb341^985178a130ecb341^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Developer/Hackman/Hackman/main.m0000000000000000^1682"CompileC build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o Hackman/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch -c /Developer/Hackman/Hackman/main.m -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Developer/Hackman/Hackman/MainViewController.xib
+s334246053.805669
+e334246066.261358
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/MainViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compiling /Developer/Hackman/Hackman/MainViewController.xibcdabcea530ecb341^4fe742b230ecb341^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Developer/Hackman/Hackman/MainViewController.xib0000000000000000^557"CompileXIB Hackman/MainViewController.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/MainViewController.nib /Developer/Hackman/Hackman/MainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+s334246053.641432
+e334246065.626959
+r1
+xCompileXIB
+x/Developer/Hackman/Hackman/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compiling /Developer/Hackman/Hackman/en.lproj/MainWindow.xib7252a4a530ecb341^567fa0b130ecb341^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Hackman/Hackman/en.lproj/MainWindow.xib0000000000000000^560"CompileXIB Hackman/en.lproj/MainWindow.xib    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/MainWindow.nib /Developer/Hackman/Hackman/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/A.png Hackman/A.png
+s334246068.721456
+e334246068.754352
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/A.png
+xHackman/A.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/A.png Hackman/A.png00c9b8b430ecb341^2a1cc1b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/A.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/A.png Hackman/A.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/A.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/A.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/B.png Hackman/B.png
+s334246068.740177
+e334246068.772173
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/B.png
+xHackman/B.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/B.png Hackman/B.pnga393bdb430ecb341^26acc5b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/B.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/B.png Hackman/B.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/B.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/B.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/C.png Hackman/C.png
+s334246068.755760
+e334246068.840680
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/C.png
+xHackman/C.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/C.png Hackman/C.pnge294c1b430ecb341^2636d7b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/C.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/C.png Hackman/C.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/C.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/C.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/D.png Hackman/D.png
+s334246068.781913
+e334246068.903242
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/D.png
+xHackman/D.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/D.png Hackman/D.png5b7accb430ecb341^213be7b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/D.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/D.png Hackman/D.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/D.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/D.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/E.png Hackman/E.png
+s334246068.798287
+e334246068.897262
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/E.png
+xHackman/E.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/E.png Hackman/E.png8578ccb430ecb341^fbb1e5b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/E.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/E.png Hackman/E.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/E.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/E.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/F.png Hackman/F.png
+s334246068.854443
+e334246068.922785
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/F.png
+xHackman/F.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/F.png Hackman/F.png48dddab430ecb341^973aecb430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/F.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/F.png Hackman/F.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/F.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/F.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/G.png Hackman/G.png
+s334246068.901300
+e334246068.943447
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/G.png
+xHackman/G.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/G.png Hackman/G.png5917e7b430ecb341^b284f1b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/G.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/G.png Hackman/G.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/G.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/G.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/H.png Hackman/H.png
+s334246068.905224
+e334246068.947426
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/H.png
+xHackman/H.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/H.png Hackman/H.pngd2e3e7b430ecb341^4790f2b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/H.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/H.png Hackman/H.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/H.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/H.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/I.png Hackman/I.png
+s334246068.924548
+e334246068.971848
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/I.png
+xHackman/I.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/I.png Hackman/I.png28d7ecb430ecb341^56d8f8b430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/I.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/I.png Hackman/I.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/I.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/I.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/J.png Hackman/J.png
+s334246068.945340
+e334246068.988381
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/J.png
+xHackman/J.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/J.png Hackman/J.pnga31ef2b430ecb341^6213fdb430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/J.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/J.png Hackman/J.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/J.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/J.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/K.png Hackman/K.png
+s334246068.949001
+e334246068.993223
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/K.png
+xHackman/K.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/K.png Hackman/K.png6f12f3b430ecb341^f94cfeb430ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/K.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/K.png Hackman/K.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/K.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/K.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/L.png Hackman/L.png
+s334246068.973710
+e334246069.016368
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/L.png
+xHackman/L.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/L.png Hackman/L.pngcb67f9b430ecb341^622f04b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/L.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/L.png Hackman/L.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/L.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/L.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Logo@2x.png Hackman/Logo@2x.png
+s334246066.517881
+e334246066.903312
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Logo@2x.png
+xHackman/Logo@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Debug-iphoneos/Hackman.app/Logo@2x.png Hackman/Logo@2x.png79b184b230ecb341^573ee7b230ecb341^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Hackman/Hackman/Logo@2x.png0000000000000000^501"CopyPNGFile "build/Debug-iphoneos/Hackman.app/Logo@2x.png" "Hackman/Logo@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Logo@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Logo@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/M.png Hackman/M.png
+s334246068.990102
+e334246069.035648
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/M.png
+xHackman/M.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/M.png Hackman/M.png739efdb430ecb341^142509b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/M.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/M.png Hackman/M.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/M.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/M.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/N.png Hackman/N.png
+s334246068.995024
+e334246069.039802
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/N.png
+xHackman/N.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/N.png Hackman/N.png4be8feb430ecb341^ac370ab530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/N.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/N.png Hackman/N.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/N.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/N.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/O.png Hackman/O.png
+s334246069.018092
+e334246069.062261
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/O.png
+xHackman/O.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/O.png Hackman/O.png54c504b530ecb341^d4ee0fb530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/O.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/O.png Hackman/O.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/O.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/O.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/P.png Hackman/P.png
+s334246069.037492
+e334246069.079082
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/P.png
+xHackman/P.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/P.png Hackman/P.pngdbc409b530ecb341^ed4514b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/P.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/P.png Hackman/P.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/P.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/P.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Q.png Hackman/Q.png
+s334246069.041358
+e334246069.082815
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Q.png
+xHackman/Q.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/Q.png Hackman/Q.png91b90ab530ecb341^683c15b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/Q.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/Q.png Hackman/Q.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/Q.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Q.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/R.png Hackman/R.png
+s334246069.063834
+e334246069.170580
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/R.png
+xHackman/R.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/R.png Hackman/R.pngbf7e10b530ecb341^a6ed2bb530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/R.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/R.png Hackman/R.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/R.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/R.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/S.png Hackman/S.png
+s334246069.080712
+e334246069.170586
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/S.png
+xHackman/S.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/S.png Hackman/S.pngd9cd14b530ecb341^91f22bb530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/S.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/S.png Hackman/S.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/S.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/S.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/T.png Hackman/T.png
+s334246069.084707
+e334246069.170614
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/T.png
+xHackman/T.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/T.png Hackman/T.pngaed615b530ecb341^66f42bb530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/T.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/T.png Hackman/T.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/T.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/T.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/U.png Hackman/U.png
+s334246069.172122
+e334246069.207479
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/U.png
+xHackman/U.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/U.png Hackman/U.pngdd262cb530ecb341^702735b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/U.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/U.png Hackman/U.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/U.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/U.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/V.png Hackman/V.png
+s334246069.172098
+e334246069.207765
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/V.png
+xHackman/V.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/V.png Hackman/V.png46262cb530ecb341^543935b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/V.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/V.png Hackman/V.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/V.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/V.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/W.png Hackman/W.png
+s334246069.172131
+e334246069.211287
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/W.png
+xHackman/W.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/W.png Hackman/W.png9a262cb530ecb341^401636b530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/W.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/W.png Hackman/W.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/W.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/W.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/X.png Hackman/X.png
+s334246069.208809
+e334246069.241185
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/X.png
+xHackman/X.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/X.png Hackman/X.pngf48c35b530ecb341^a1be3db530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/X.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/X.png Hackman/X.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/X.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/X.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Y.png Hackman/Y.png
+s334246069.208832
+e334246069.240907
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Y.png
+xHackman/Y.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/Y.png Hackman/Y.pnge38835b530ecb341^7eab3db530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/Y.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/Y.png Hackman/Y.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/Y.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Y.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Z.png Hackman/Z.png
+s334246069.212630
+e334246069.241650
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Z.png
+xHackman/Z.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Hackman.app/Z.png Hackman/Z.png7f8736b530ecb341^83dc3db530ecb341^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Hackman/Hackman/Z.png0000000000000000^469"CopyPNGFile build/Debug-iphoneos/Hackman.app/Z.png Hackman/Z.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/Z.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Z.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/about1.png Hackman/about1.png
+s334246065.628938
+e334246066.516416
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/about1.png
+xHackman/about1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Debug-iphoneos/Hackman.app/about1.png Hackman/about1.pnge410a1b130ecb341^ec3284b230ecb341^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/Hackman/Hackman/about1.png0000000000000000^489"CopyPNGFile build/Debug-iphoneos/Hackman.app/about1.png Hackman/about1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/about1.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/about1.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/background.png Hackman/background.png
+s334246065.628425
+e334246066.903857
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/background.png
+xHackman/background.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Debug-iphoneos/Hackman.app/background.png Hackman/background.png41f4a0b130ecb341^c762e7b230ecb341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/background.png0000000000000000^505"CopyPNGFile build/Debug-iphoneos/Hackman.app/background.png Hackman/background.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/background.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/background.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/button-red.png Hackman/button-red.png
+s334246069.242295
+e334246069.289294
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/button-red.png
+xHackman/button-red.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Debug-iphoneos/Hackman.app/button-red.png Hackman/button-red.png8a1c3eb530ecb341^ed0d4ab530ecb341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/button-red.png0000000000000000^505"CopyPNGFile build/Debug-iphoneos/Hackman.app/button-red.png Hackman/button-red.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/button-red.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/button-red.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/category.png Hackman/category.png
+s334246068.660126
+e334246068.720106
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/category.png
+xHackman/category.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/Hackman.app/category.png Hackman/category.pnga513a9b430ecb341^c157b8b430ecb341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Hackman/Hackman/category.png0000000000000000^497"CopyPNGFile build/Debug-iphoneos/Hackman.app/category.png Hackman/category.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/category.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/category.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1.png "Hackman/Hackman Frames/hack1.png"
+s334246066.639874
+e334246067.464192
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1.png
+xHackman/Hackman Frames/hack1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack1.png "Hackman/Hackman Frames/hack1.png"89eca3b230ecb341^84d376b330ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack1.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack1.png "Hackman/Hackman Frames/hack1.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack1.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1@2x.png "Hackman/Hackman Frames/hack1@2x.png"
+s334246066.904752
+e334246067.522677
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1@2x.png
+xHackman/Hackman Frames/hack1@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack1@2x.png "Hackman/Hackman Frames/hack1@2x.png"4fb0e7b230ecb341^64cc85b330ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack1@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack1@2x.png" "Hackman/Hackman Frames/hack1@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack1@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack1@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2.png "Hackman/Hackman Frames/hack2.png"
+s334246066.904750
+e334246067.523158
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2.png
+xHackman/Hackman Frames/hack2.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack2.png "Hackman/Hackman Frames/hack2.png"70b0e7b230ecb341^92ec85b330ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack2.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack2.png "Hackman/Hackman Frames/hack2.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack2.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2@2x.png "Hackman/Hackman Frames/hack2@2x.png"
+s334246067.465577
+e334246067.833353
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2@2x.png
+xHackman/Hackman Frames/hack2@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack2@2x.png "Hackman/Hackman Frames/hack2@2x.png"994a77b330ecb341^a854d5b330ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack2@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack2@2x.png" "Hackman/Hackman Frames/hack2@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack2@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack2@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3.png "Hackman/Hackman Frames/hack3.png"
+s334246067.524040
+e334246068.026654
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3.png
+xHackman/Hackman Frames/hack3.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack3.png "Hackman/Hackman Frames/hack3.png"0d5086b330ecb341^f6d006b430ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack3.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack3.png "Hackman/Hackman Frames/hack3.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack3.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3@2x.png "Hackman/Hackman Frames/hack3@2x.png"
+s334246067.524096
+e334246067.981498
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3@2x.png
+xHackman/Hackman Frames/hack3@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack3@2x.png "Hackman/Hackman Frames/hack3@2x.png"a24186b330ecb341^af41fbb330ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack3@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack3@2x.png" "Hackman/Hackman Frames/hack3@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack3@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack3@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4.png "Hackman/Hackman Frames/hack4.png"
+s334246067.834780
+e334246068.289041
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4.png
+xHackman/Hackman Frames/hack4.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack4.png "Hackman/Hackman Frames/hack4.png"c5c5d5b330ecb341^a0fc49b430ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack4.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack4.png "Hackman/Hackman Frames/hack4.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack4.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4@2x.png "Hackman/Hackman Frames/hack4@2x.png"
+s334246067.982935
+e334246068.289634
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4@2x.png
+xHackman/Hackman Frames/hack4@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack4@2x.png "Hackman/Hackman Frames/hack4@2x.png"07b5fbb330ecb341^10254ab430ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack4@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack4@2x.png" "Hackman/Hackman Frames/hack4@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack4@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack4@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5.png "Hackman/Hackman Frames/hack5.png"
+s334246068.028048
+e334246068.289280
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5.png
+xHackman/Hackman Frames/hack5.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack5.png "Hackman/Hackman Frames/hack5.png"4f4007b430ecb341^6e134ab430ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack5.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack5.png "Hackman/Hackman Frames/hack5.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack5.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5@2x.png "Hackman/Hackman Frames/hack5@2x.png"
+s334246068.290357
+e334246068.658721
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5@2x.png
+xHackman/Hackman Frames/hack5@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack5@2x.png "Hackman/Hackman Frames/hack5@2x.png"45664ab430ecb341^d89fa8b430ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack5@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack5@2x.png" "Hackman/Hackman Frames/hack5@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack5@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack5@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6.png "Hackman/Hackman Frames/hack6.png"
+s334246068.290408
+e334246068.645259
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6.png
+xHackman/Hackman Frames/hack6.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack6.png "Hackman/Hackman Frames/hack6.png"d7674ab430ecb341^fd2da5b430ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack6.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack6.png "Hackman/Hackman Frames/hack6.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack6.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6@2x.png "Hackman/Hackman Frames/hack6@2x.png"
+s334246068.290818
+e334246068.658940
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6@2x.png
+xHackman/Hackman Frames/hack6@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack6@2x.png "Hackman/Hackman Frames/hack6@2x.png"17804ab430ecb341^5bb0a8b430ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack6@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack6@2x.png" "Hackman/Hackman Frames/hack6@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack6@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack6@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7.png "Hackman/Hackman Frames/hack7.png"
+s334246068.646791
+e334246068.738814
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7.png
+xHackman/Hackman Frames/hack7.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack7.png "Hackman/Hackman Frames/hack7.png"26a8a5b430ecb341^4222bdb430ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack7.png0000000000000000^519"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack7.png "Hackman/Hackman Frames/hack7.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack7.png" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7@2x.png "Hackman/Hackman Frames/hack7@2x.png"
+s334246068.660139
+e334246068.793909
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7@2x.png
+xHackman/Hackman Frames/hack7@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/Debug-iphoneos/Hackman.app/hack7@2x.png "Hackman/Hackman Frames/hack7@2x.png"5d18a9b430ecb341^9b54ccb430ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/Hackman/Hackman%20Frames/hack7@2x.png0000000000000000^535"CopyPNGFile "build/Debug-iphoneos/Hackman.app/hack7@2x.png" "Hackman/Hackman Frames/hack7@2x.png"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Developer/Hackman/Hackman/Hackman Frames/hack7@2x.png" "/Developer/Hackman/build/Debug-iphoneos/Hackman.app/hack7@2x.png"
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/options1.png Hackman/options1.png
+s334246066.263834
+e334246066.517382
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/options1.png
+xHackman/options1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/Hackman.app/options1.png Hackman/options1.pngada643b230ecb341^b09184b230ecb341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Hackman/Hackman/options1.png0000000000000000^497"CopyPNGFile build/Debug-iphoneos/Hackman.app/options1.png Hackman/options1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/options1.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/options1.png
+
+CCopyPNGFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/play1.png Hackman/play1.png
+s334246066.518245
+e334246066.638502
+r1
+xCopyPNGFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/play1.png
+xHackman/play1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/Hackman.app/play1.png Hackman/play1.pngacc484b230ecb341^dc84a3b230ecb341^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Developer/Hackman/Hackman/play1.png0000000000000000^485"CopyPNGFile build/Debug-iphoneos/Hackman.app/play1.png Hackman/play1.png    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Hackman/Hackman/play1.png /Developer/Hackman/build/Debug-iphoneos/Hackman.app/play1.png
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/person-paid.plist Hackman/person-paid.plist
+s334246069.290695
+e334246069.296364
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/person-paid.plist
+xHackman/person-paid.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy Hackman/person-paid.plist508a4ab530ecb341^72de4bb530ecb341^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Hackman/Hackman/person-paid.plist0000000000000000^371"CopyPlistFile build/Debug-iphoneos/Hackman.app/person-paid.plist Hackman/person-paid.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/person-paid.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/person.plist Hackman/person.plist
+s334246069.242310
+e334246069.266550
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/person.plist
+xHackman/person.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Copy Hackman/person.plist261c3eb530ecb341^4b3c44b530ecb341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Hackman/Hackman/person.plist0000000000000000^356"CopyPlistFile build/Debug-iphoneos/Hackman.app/person.plist Hackman/person.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/person.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage-paid.plist Hackman/planguage-paid.plist
+s334246069.290691
+e334246069.295252
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage-paid.plist
+xHackman/planguage-paid.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy Hackman/planguage-paid.plist06844ab530ecb341^fb944bb530ecb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Hackman/Hackman/planguage-paid.plist0000000000000000^380"CopyPlistFile build/Debug-iphoneos/Hackman.app/planguage-paid.plist Hackman/planguage-paid.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/planguage-paid.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage.plist Hackman/planguage.plist
+s334246069.267373
+e334246069.290953
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/planguage.plist
+xHackman/planguage.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy Hackman/planguage.plist158e44b530ecb341^6b804ab530ecb341^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Developer/Hackman/Hackman/planguage.plist0000000000000000^365"CopyPlistFile build/Debug-iphoneos/Hackman.app/planguage.plist Hackman/planguage.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/planguage.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups-paid.plist Hackman/startups-paid.plist
+s334246069.268047
+e334246069.290168
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups-paid.plist
+xHackman/startups-paid.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy Hackman/startups-paid.plist2db344b530ecb341^a6484ab530ecb341^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Developer/Hackman/Hackman/startups-paid.plist0000000000000000^377"CopyPlistFile build/Debug-iphoneos/Hackman.app/startups-paid.plist Hackman/startups-paid.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/startups-paid.plist
+
+CCopyPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups.plist Hackman/startups.plist
+s334246069.242308
+e334246069.266023
+r1
+xCopyPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/startups.plist
+xHackman/startups.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy Hackman/startups.plistca193eb530ecb341^7e1944b530ecb341^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Hackman/Hackman/startups.plist0000000000000000^362"CopyPlistFile build/Debug-iphoneos/Hackman.app/startups.plist Hackman/startups.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app -- Hackman/startups.plist
+
+CCopyStringsFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings
+s334246053.641433
+e334246053.804396
+r1
+xCopyStringsFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj/InfoPlist.strings
+xHackman/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Hackman/en.lproj/InfoPlist.stringsb54ea4a530ecb341^81eccda530ecb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/Hackman/Hackman/en.lproj/InfoPlist.strings0000000000000000^450"CopyStringsFile build/Debug-iphoneos/Hackman.app/en.lproj/InfoPlist.strings Hackman/en.lproj/InfoPlist.strings    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/Hackman/build/Debug-iphoneos/Hackman.app/en.lproj -- Hackman/en.lproj/InfoPlist.strings
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Hackman.app/ResourceRules.plist
+s334246038.674653
+e334246038.737924
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Hackman.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/Hackman.app/ResourceRules.plist10c9ac9630ecb341^8ae7bc9630ecb341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/Hackman/build/Debug-iphoneos/Hackman.app/ResourceRules.plist00f4a8c6deffdf42^545"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Hackman.app/ResourceRules.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+
+CCreateUniversalBinary /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman normal "armv6 armv7"
+s334246053.401439
+e334246053.438841
+r1
+xCreateUniversalBinary
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Create universal binary /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman80d866a530ecb341^605670a530ecb341^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman00f4a8c6deffdf42^522"CreateUniversalBinary build/Debug-iphoneos/Hackman.app/Hackman normal "armv6 armv7"    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman -output /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+
+CGenerateDSYMFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+s334246053.445684
+e334246053.632922
+r1
+xGenerateDSYMFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Generating /Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM062b72a530ecb341^de05a2a530ecb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM00f4a8c6deffdf42^398"GenerateDSYMFile build/Debug-iphoneos/Hackman.app.dSYM build/Debug-iphoneos/Hackman.app/Hackman    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Hackman -o /Developer/Hackman/build/Debug-iphoneos/Hackman.app.dSYM
+
+CLd /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman normal armv6
+s334246050.988852
+e334246052.310764
+r1
+xLd
+x/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman1843fda230ecb341^2e8d4fa430ecb341^---0#0#0#--950"Ld build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman normal armv6    cd /Developer/Hackman    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Developer/Hackman/build/Debug-iphoneos -F/Developer/Hackman/build/Debug-iphoneos -filelist /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework GameKit -framework SystemConfiguration -framework StoreKit -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv6/Hackman
+
+CLd /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman normal armv7
+s334246053.065352
+e334246053.394995
+r1
+xLd
+x/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackmanf6d210a530ecb341^041d65a530ecb341^---0#0#0#--950"Ld build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman normal armv7    cd /Developer/Hackman    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Developer/Hackman/build/Debug-iphoneos -F/Developer/Hackman/build/Debug-iphoneos -filelist /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework GameKit -framework SystemConfiguration -framework StoreKit -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Objects-normal/armv7/Hackman
+
+CProcessInfoPlistFile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Info.plist Hackman/Hackman-Info.plist
+s334246038.674658
+e334246038.704700
+r1
+xProcessInfoPlistFile
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/Info.plist
+xHackman/Hackman-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Hackman/Hackman-Info.plist15c8ac9630ecb341^3c66b49630ecb341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/Hackman-Info.plist0000000000000000^582"ProcessInfoPlistFile build/Debug-iphoneos/Hackman.app/Info.plist Hackman/Hackman-Info.plist    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Hackman/Hackman-Info.plist -genpkginfo /Developer/Hackman/build/Debug-iphoneos/Hackman.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Developer/Hackman/build/Debug-iphoneos/Hackman.app/ResourceRules.plist -o /Developer/Hackman/build/Debug-iphoneos/Hackman.app/Info.plist
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Hackman-elvenxhyeeisbobhogouvmlqpztc/Index/PrecompiledHeaders/Hackman-Prefix-bkdkqohichxxzkgtbmyxofdidbkq_ast/Hackman-Prefix.pch.pth Hackman/Hackman-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Hackman-elvenxhyeeisbobhogouvmlqpztc/Index/PrecompiledHeaders/Hackman-Prefix-enkowekvmwfhotcrdvttvqbjhhry_ast/Hackman-Prefix.pch.pth Hackman/Hackman-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334246038.748164
+e334246049.047284
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch
+xHackman/Hackman-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Hackman/Hackman-Prefix.pchd1adbf9630ecb341^4c190ca130ecb341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/Hackman-Prefix.pch0000000000000000^1698"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv6 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -c /Developer/Hackman/Hackman/Hackman-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-difwxbhxjtqmczdwhyqcggvqzvhh/Hackman-Prefix.pch.gch
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334246038.748180
+e334246048.832679
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch
+xHackman/Hackman-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Hackman/Hackman-Prefix.pchd5b0bf9630ecb341^f228d5a030ecb341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Hackman/Hackman/Hackman-Prefix.pch0000000000000000^1698"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch Hackman/Hackman-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Hackman    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-generated-files.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-own-target-headers.hmap -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-all-target-headers.hmap -iquote /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman-project-headers.hmap -I/Developer/Hackman/build/Debug-iphoneos/include -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources/armv7 -I/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/DerivedSources -F/Developer/Hackman/build/Debug-iphoneos -c /Developer/Hackman/Hackman/Hackman-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hackman-Prefix-eqxgyvbtvjoxxuahauqzplqgwyys/Hackman-Prefix.pch.gch
+
+CProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" /Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+s334246069.382182
+e334246069.406200
+r1
+xProcessProductPackaging
+x/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection198"ProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" build/Debug-iphoneos/Hackman.app/embedded.mobileprovision2ff761b530ecb341^d6fd67b530ecb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision0000000000000000^582"ProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" build/Debug-iphoneos/Hackman.app/embedded.mobileprovision    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58.mobileprovision" -o /Developer/Hackman/build/Debug-iphoneos/Hackman.app/embedded.mobileprovision
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent
+s334246069.468718
+e334246069.496010
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent511478b530ecb341^adfc7eb530ecb341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent00f4a8c6deffdf42^562"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Developer/Hackman/build/Hackman.build/Debug-iphoneos/Hackman.build/Hackman.xcent
+
+CTouch /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+s334246069.416134
+e334246069.460832
+r1
+xTouch
+x/Developer/Hackman/build/Debug-iphoneos/Hackman.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Touch /Developer/Hackman/build/Debug-iphoneos/Hackman.appf6966ab530ecb341^83f775b530ecb341^---0#0#0#--263"Touch build/Debug-iphoneos/Hackman.app    cd /Developer/Hackman    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Hackman/build/Debug-iphoneos/Hackman.app
+

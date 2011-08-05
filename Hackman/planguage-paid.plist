@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<string>JAVA</string>
+		<string>PYTHON</string>
+		<string>RUBY</string>
+		<string>PHP</string>
+		<string>JAVASCRIPT</string>
+		<string>PERL</string>
+		<string>NPL</string>
+		<string>VISUAL BASIC</string>
+		<string>HOP</string>
+		<string>PASCAL</string>
+		<string>COFFEESCRIPT</string>
+		<string>BASH</string>
+		<string>LISP</string>
+		<string>APPLESCRIPT</string>
+		<string>CLOJURE</string>
+		<string>SCHEME</string>
+		<string>HASKELL</string>
+		<string>OBJECTIVE C</string>
+		<string>COBOL</string>
+		<string>SMALLTALK</string>
+		<string>SQL</string>
+		<string>DELPHI</string>
+		<string>FORTRAN</string>
+		<string>C</string>
+		<string>ACTIONSCRIPT</string>
+		<string>COBOL</string>
+		<string>ANDROID</string>
+		<string>PROLOG</string>
+		<string>MACINTOSH</string>
+		<string>ADA</string>
+		<string>WINDOWS</string>
+		<string>AGORA</string>
+		<string>LINUX</string>
+		<string>BASIC</string>
+		<string>FEDORA</string>
+		<string>COLD FUSION</string>
+		<string>DOS</string>
+		<string>EIFFEL</string>
+		<string>OPENBSD</string>
+		<string>FLEX</string>
+		<string>GO</string>
+		<string>MATLAB</string>
+		<string>VERILOG</string>
+		<string>SNOWBALL</string>
+		<string>SCALA</string>
+	</array>
+</dict>
+</plist>

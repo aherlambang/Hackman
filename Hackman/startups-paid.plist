@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<string>PATH</string>
+		<string>QUORA</string>
+		<string>FACEBOOK</string>
+		<string>YAMMER</string>
+		<string>FOURSQUARE</string>
+		<string>OOYALA</string>
+		<string>INSTAGRAM</string>
+		<string>POSTEROUS</string>
+		<string>SEAT ME</string>
+		<string>DROPBOX</string>
+		<string>WEEBLY</string>
+		<string>AIRBNB</string>
+		<string>HIPMUNK</string>
+		<string>LOOPT</string>
+		<string>BOXEE</string>
+		<string>SCRIBD</string>
+		<string>SPOTIFY</string>
+		<string>SOUNDTRACKING</string>
+		<string>KATANGO</string>
+		<string>NING</string>
+		<string>TWILIO</string>
+		<string>HEYZAP</string>
+		<string>ASTRID</string>
+		<string>FLIXSTER</string>
+		<string>ZAARLY</string>
+		<string>SKOUT</string>
+		<string>TASK RABBIT</string>
+		<string>ANSWERLY</string>
+		<string>BUMP</string>
+		<string>PUNCHD</string>
+		<string>EVRI</string>
+		<string>FORRST</string>
+		<string>SQUARE</string>
+		<string>BAYDIN</string>
+		<string>VIDEO SURF</string>
+		<string>CHIRPLY</string>
+		<string>YOBONGO</string>
+		<string>INDINERO</string>
+		<string>MINT</string>
+		<string>NINUA</string>
+		<string>ZAZZLE</string>
+		<string>BOOYAH</string>
+		<string>LOCALMIND</string>
+		<string>SPOONDATE</string>
+		<string>REDDIT</string>
+		<string>TOUT</string>
+		<string>DISQUS</string>
+		<string>VOLTA</string>
+		<string>HEROKU</string>
+		<string>VOTIZEN</string>
+		<string>QUIRKY</string>
+		<string>NGMOCO</string>
+		<string>MEEBO</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<string>PETER THIEL</string>
+		<string>FRED WILSON</string>
+		<string>JOHN DOERR</string>
+		<string>RON CONWAY</string>
+		<string>PAUL GRAHAM</string>
+		<string>SEAN PARKER</string>
+		<string>MITCH KAPOR</string>
+		<string>MARK PINCUS</string>
+		<string>KEVIN ROSE</string>
+		<string>HITEN SHAH</string>
+		<string>MARK SUSTER</string>
+		<string>JACK DORSEY</string>
+		<string>SARAH LACY</string>
+		<string>CHRIS DIXON</string>
+		<string>MATT CUTTS</string>
+		<string>EVAN WILLIAMS</string>
+		<string>EMILY CHANG</string>
+		<string>OM MALIK</string>
+		<string>GARRY TAN</string>
+		<string>ANDREW WARNER</string>
+		<string>DENNIS CROWLEY</string>
+		<string>WALT MOSSBERG</string>
+		<string>ROBERT SCOBLE</string>
+		<string>LARRY PAGE</string>
+		<string>MICHAEL DEARING</string>
+		<string>MARISSA MAYER</string>
+		<string>CHARLIE CHEEVER</string>
+		<string>BRIAN CHESKY</string>
+		<string>CHRIS SACCA</string>
+		<string>PARKER HARRIS</string>
+		<string>ANDREW MASON</string>
+		<string>ANKIT GUPTA</string>
+		<string>MIKE MCCUE</string>
+		<string>MICHAEL ARRINGTON</string>
+		<string>MARK ZUCKENBERG</string>
+		<string>DUSTIN MIERAU</string>
+		<string>BING GORDON</string>
+	</array>
+</dict>
+</plist>

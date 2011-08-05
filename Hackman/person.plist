@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<string>PETER THIEL</string>
+		<string>FRED WILSON</string>
+		<string>RON CONWAY</string>
+		<string>PAUL GRAHAM</string>
+		<string>SEAN PARKER</string>
+		<string>MARK SUSTER</string>
+		<string>SARAH LACY</string>
+		<string>JACK DORSEY</string>
+		<string>MATT CUTTS</string>
+		<string>GARRY TAN</string>
+		<string>MICHAEL ARRINGTON</string>
+	</array>
+</dict>
+</plist>
