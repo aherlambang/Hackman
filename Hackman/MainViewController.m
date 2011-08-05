@@ -46,14 +46,11 @@
 
 - (IBAction) options:(id) sender
 {
-    OptionsViewController * options = [[OptionsViewController alloc] init];
-    [self presentModalViewController:options animated:YES];
-}
-
-
-- (IBAction) about:(id) sender
-{
-    
+    OptionsViewController * options = [[OptionsViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:options];
+    nav.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentModalViewController:nav animated:YES];
+    [options release];
 }
 
 

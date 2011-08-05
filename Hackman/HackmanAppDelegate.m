@@ -7,7 +7,9 @@
 //
 
 #import "HackmanAppDelegate.h"
+#import "HackmanIAPHelper.h"
 #import "MainViewController.h"
+#import "GCHelper.h"
 
 @implementation HackmanAppDelegate
 
@@ -15,31 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[GCHelper sharedInstance] authenticateLocalUser];
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:[HackmanIAPHelper sharedHelper]];
+    NSUserDefaults * userSettings = [NSUserDefaults standardUserDefaults];
+    if ([userSettings stringForKey:@"category"] == nil)
+        [userSettings setValue:@"startups" forKey:@"category"];
     
-    NSString * startupPlist = @"/Developer/Hangman/Hackman/Hackman/startups.plist";
-    NSString * namesPlist = @"/Developer/Hangman/Hackman/Hackman/names.plist";
-    NSString * programmingPlist = @"/Developer/Hangman/Hackman/Hackman/programming.plist";
-    
-    
-    NSArray * arr = [NSArray arrayWithObjects:@"AIRBNB",@"LOOPT", @"FOURSQUARE", @"GOWALLA", @"FLIPBOARD", @"ZYNGA",
-                                              @"YCOMBINATOR", @"JUSTINTV", @"TUMBLR", @"ZIPCAR", @"ZAARLY", @"PATH", 
-                                              @"POSTEROUS", @"FACEBOOK", @"SEATME", @"BITCOIN", @"NING", @"OOYALA", 
-                                              @"VIDEOSURF", @"DROPBOX", @"FIXYA", @"ZAZZLE",@"MEEBO",@"USTREAM", @"LOCALMIND",
-                                              @"GROUPON", nil];
-    //[arr writeToFile:startupPlist atomically:YES];
-    
-    NSArray * arr1 = [NSArray arrayWithObjects:@"PAUL GRAHAM",@"PETER THIEL", @"DAVE MCCLURE", @"JESSICA LIVINGSTON", @"NIKET DESAY", @"RON CONWAY", 
-                                               @"ARRINGTON", @"ROBERT SCOBLE", @"EVAN WILLIAMS", @"KEVIN ROSE", @"MITCH KAPOR", @"JOHN DOERR",
-                                                nil];
-    //[arr1 writeToFile:namesPlist atomically:YES];
-    
-    NSArray * arr2 = [NSArray arrayWithObjects:@"",@"",nil];
-    //[arr2 writeToFile:programmingPlist atomically:YES];
-    
-    // Override point for customization after application launch.
-	
-	// Create the view controller
-	MainViewController * main = [[MainViewController alloc] init];
+  	MainViewController * main = [[MainViewController alloc] init];
 		
 	// Display the window
 	[_window addSubview:main.view];

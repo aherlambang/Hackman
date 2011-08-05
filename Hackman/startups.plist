@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Root</key>
+	<array>
+		<string>QUORA</string>
+		<string>FACEBOOK</string>
+		<string>FOURSQUARE</string>
+		<string>INSTAGRAM</string>
+		<string>POSTEROUS</string>
+		<string>AIRBNB</string>
+		<string>HIPMUNK</string>
+		<string>LOOPT</string>
+		<string>SPOTIFY</string>
+		<string>KATANGO</string>
+		<string>SOUNDTRACKING</string>
+	</array>
+</dict>
 </plist>

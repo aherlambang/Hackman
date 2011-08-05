@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534B0DA113EB0153006A0C12 /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 534B0DA013EB0153006A0C12 /* GCHelper.m */; };
+		534B0DA413EB0177006A0C12 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534B0DA313EB0177006A0C12 /* GameKit.framework */; };
+		534B0DE213EB0CE4006A0C12 /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 534B0DE113EB0CE4006A0C12 /* GameState.m */; };
+		534B0DE513EB1807006A0C12 /* GCDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 534B0DE413EB1807006A0C12 /* GCDatabase.m */; };
+		534B0DEC13EB5985006A0C12 /* startups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DEB13EB5985006A0C12 /* startups.plist */; };
+		534B0DF313EB8289006A0C12 /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DF213EB8289006A0C12 /* person.plist */; };
+		534B0DF513EB829F006A0C12 /* planguage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DF413EB829F006A0C12 /* planguage.plist */; };
+		534B0DF713EB8830006A0C12 /* startups-paid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DF613EB8830006A0C12 /* startups-paid.plist */; };
+		534B0DF913EB884E006A0C12 /* planguage-paid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DF813EB884D006A0C12 /* planguage-paid.plist */; };
+		534B0DFB13EB8877006A0C12 /* person-paid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 534B0DFA13EB8876006A0C12 /* person-paid.plist */; };
 		5351ED5213E63F8E002D10DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5351ED5113E63F8E002D10DF /* UIKit.framework */; };
 		5351ED5413E63F8E002D10DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5351ED5313E63F8E002D10DF /* Foundation.framework */; };
 		5351ED5613E63F8E002D10DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5351ED5513E63F8E002D10DF /* CoreGraphics.framework */; };
@@ -16,8 +26,6 @@
 		5351ED6513E63F8F002D10DF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5351ED6313E63F8F002D10DF /* MainWindow.xib */; };
 		5351ED6E13E63FBC002D10DF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351ED6C13E63FBC002D10DF /* MainViewController.m */; };
 		5351ED6F13E63FBC002D10DF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5351ED6D13E63FBC002D10DF /* MainViewController.xib */; };
-		5351ED7313E63FCE002D10DF /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351ED7113E63FCD002D10DF /* OptionsViewController.m */; };
-		5351ED7413E63FCE002D10DF /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5351ED7213E63FCD002D10DF /* OptionsViewController.xib */; };
 		5351EE8F13E7C7E0002D10DF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EE8E13E7C7E0002D10DF /* background.png */; };
 		5351EE9313E7C81D002D10DF /* about1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EE9013E7C81D002D10DF /* about1.png */; };
 		5351EE9413E7C81D002D10DF /* options1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EE9113E7C81D002D10DF /* options1.png */; };
@@ -37,10 +45,6 @@
 		5351EEBB13E7CBC4002D10DF /* hack6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEAD13E7CBC4002D10DF /* hack6@2x.png */; };
 		5351EEBC13E7CBC4002D10DF /* hack7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEAE13E7CBC4002D10DF /* hack7.png */; };
 		5351EEBD13E7CBC4002D10DF /* hack7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEAF13E7CBC4002D10DF /* hack7@2x.png */; };
-		5351EEBF13E7D175002D10DF /* startups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEBE13E7D174002D10DF /* startups.plist */; };
-		5351EEC213E7D1A2002D10DF /* programming.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEC113E7D1A2002D10DF /* programming.plist */; };
-		5351EEC413E7D1AB002D10DF /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEC313E7D1AB002D10DF /* names.plist */; };
-		5351EEFB13E86DE2002D10DF /* button-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEFA13E86DE2002D10DF /* button-red.png */; };
 		5351EEFD13E87068002D10DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5351EEFC13E87067002D10DF /* QuartzCore.framework */; };
 		5351EEFF13E87E99002D10DF /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EEFE13E87E98002D10DF /* category.png */; };
 		5351EF1A13E8B0BA002D10DF /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EF0013E8B0BA002D10DF /* A.png */; };
@@ -70,9 +74,30 @@
 		5351EF3213E8B0BA002D10DF /* Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EF1813E8B0BA002D10DF /* Y.png */; };
 		5351EF3313E8B0BA002D10DF /* Z.png in Resources */ = {isa = PBXBuildFile; fileRef = 5351EF1913E8B0BA002D10DF /* Z.png */; };
 		5351EF3513E8B15E002D10DF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351EF3413E8B15C002D10DF /* GameViewController.m */; };
+		53937CD413E8D82600DA2F63 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53937CD313E8D82600DA2F63 /* OptionsViewController.m */; };
+		53937CD613E8E9BB00DA2F63 /* button-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 53937CD513E8E9BB00DA2F63 /* button-red.png */; };
+		53937CD913E9A9A600DA2F63 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53937CD813E9A9A600DA2F63 /* IAPHelper.m */; };
+		53937CDB13E9AA6200DA2F63 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53937CDA13E9AA6200DA2F63 /* StoreKit.framework */; };
+		53937D2813EA000E00DA2F63 /* HackmanIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53937D2713EA000D00DA2F63 /* HackmanIAPHelper.m */; };
+		53937D3013EA01C600DA2F63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53937D2F13EA01C600DA2F63 /* SystemConfiguration.framework */; };
+		53937D3313EA021F00DA2F63 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 53937D3213EA021F00DA2F63 /* MBProgressHUD.m */; };
+		53937D3613EA026900DA2F63 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 53937D3513EA026900DA2F63 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		534B0D9F13EB0153006A0C12 /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCHelper.h; sourceTree = "<group>"; };
+		534B0DA013EB0153006A0C12 /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCHelper.m; sourceTree = "<group>"; };
+		534B0DA313EB0177006A0C12 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		534B0DE013EB0CE4006A0C12 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		534B0DE113EB0CE4006A0C12 /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		534B0DE313EB1807006A0C12 /* GCDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDatabase.h; sourceTree = "<group>"; };
+		534B0DE413EB1807006A0C12 /* GCDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDatabase.m; sourceTree = "<group>"; };
+		534B0DEB13EB5985006A0C12 /* startups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = startups.plist; sourceTree = "<group>"; };
+		534B0DF213EB8289006A0C12 /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
+		534B0DF413EB829F006A0C12 /* planguage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = planguage.plist; sourceTree = "<group>"; };
+		534B0DF613EB8830006A0C12 /* startups-paid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "startups-paid.plist"; sourceTree = "<group>"; };
+		534B0DF813EB884D006A0C12 /* planguage-paid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "planguage-paid.plist"; sourceTree = "<group>"; };
+		534B0DFA13EB8876006A0C12 /* person-paid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "person-paid.plist"; sourceTree = "<group>"; };
 		5351ED4D13E63F8E002D10DF /* Hackman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5351ED5113E63F8E002D10DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5351ED5313E63F8E002D10DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,9 +112,6 @@
 		5351ED6B13E63FBC002D10DF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5351ED6C13E63FBC002D10DF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5351ED6D13E63FBC002D10DF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		5351ED7013E63FCD002D10DF /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
-		5351ED7113E63FCD002D10DF /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
-		5351ED7213E63FCD002D10DF /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
 		5351EE8E13E7C7E0002D10DF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5351EE9013E7C81D002D10DF /* about1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about1.png; sourceTree = "<group>"; };
 		5351EE9113E7C81D002D10DF /* options1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options1.png; sourceTree = "<group>"; };
@@ -110,10 +132,6 @@
 		5351EEAD13E7CBC4002D10DF /* hack6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hack6@2x.png"; sourceTree = "<group>"; };
 		5351EEAE13E7CBC4002D10DF /* hack7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hack7.png; sourceTree = "<group>"; };
 		5351EEAF13E7CBC4002D10DF /* hack7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hack7@2x.png"; sourceTree = "<group>"; };
-		5351EEBE13E7D174002D10DF /* startups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = startups.plist; sourceTree = "<group>"; };
-		5351EEC113E7D1A2002D10DF /* programming.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = programming.plist; sourceTree = "<group>"; };
-		5351EEC313E7D1AB002D10DF /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = names.plist; sourceTree = "<group>"; };
-		5351EEFA13E86DE2002D10DF /* button-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-red.png"; sourceTree = "<group>"; };
 		5351EEFC13E87067002D10DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5351EEFE13E87E98002D10DF /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
 		5351EF0013E8B0BA002D10DF /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
@@ -143,6 +161,19 @@
 		5351EF1813E8B0BA002D10DF /* Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y.png; sourceTree = "<group>"; };
 		5351EF1913E8B0BA002D10DF /* Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Z.png; sourceTree = "<group>"; };
 		5351EF3413E8B15C002D10DF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		53937CD213E8D82600DA2F63 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = ../OptionsViewController.h; sourceTree = "<group>"; };
+		53937CD313E8D82600DA2F63 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = ../OptionsViewController.m; sourceTree = "<group>"; };
+		53937CD513E8E9BB00DA2F63 /* button-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-red.png"; sourceTree = "<group>"; };
+		53937CD713E9A9A600DA2F63 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		53937CD813E9A9A600DA2F63 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		53937CDA13E9AA6200DA2F63 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		53937D2613EA000D00DA2F63 /* HackmanIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackmanIAPHelper.h; sourceTree = "<group>"; };
+		53937D2713EA000D00DA2F63 /* HackmanIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackmanIAPHelper.m; sourceTree = "<group>"; };
+		53937D2F13EA01C600DA2F63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53937D3113EA021F00DA2F63 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		53937D3213EA021F00DA2F63 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		53937D3413EA026900DA2F63 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		53937D3513EA026900DA2F63 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +181,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534B0DA413EB0177006A0C12 /* GameKit.framework in Frameworks */,
+				53937D3013EA01C600DA2F63 /* SystemConfiguration.framework in Frameworks */,
+				53937CDB13E9AA6200DA2F63 /* StoreKit.framework in Frameworks */,
 				5351EEFD13E87068002D10DF /* QuartzCore.framework in Frameworks */,
 				5351ED5213E63F8E002D10DF /* UIKit.framework in Frameworks */,
 				5351ED5413E63F8E002D10DF /* Foundation.framework in Frameworks */,
@@ -160,6 +194,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		534B0DFC13EBB149006A0C12 /* In App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				53937CD713E9A9A600DA2F63 /* IAPHelper.h */,
+				53937CD813E9A9A600DA2F63 /* IAPHelper.m */,
+				53937D2613EA000D00DA2F63 /* HackmanIAPHelper.h */,
+				53937D2713EA000D00DA2F63 /* HackmanIAPHelper.m */,
+			);
+			name = "In App Purchase";
+			sourceTree = "<group>";
+		};
+		534B0DFD13EBB164006A0C12 /* Game Center */ = {
+			isa = PBXGroup;
+			children = (
+				534B0D9F13EB0153006A0C12 /* GCHelper.h */,
+				534B0DA013EB0153006A0C12 /* GCHelper.m */,
+				534B0DE013EB0CE4006A0C12 /* GameState.h */,
+				534B0DE113EB0CE4006A0C12 /* GameState.m */,
+				534B0DE313EB1807006A0C12 /* GCDatabase.h */,
+				534B0DE413EB1807006A0C12 /* GCDatabase.m */,
+			);
+			name = "Game Center";
+			sourceTree = "<group>";
+		};
 		5351ED4213E63F8E002D10DF = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +238,9 @@
 		5351ED5013E63F8E002D10DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				534B0DA313EB0177006A0C12 /* GameKit.framework */,
+				53937D2F13EA01C600DA2F63 /* SystemConfiguration.framework */,
+				53937CDA13E9AA6200DA2F63 /* StoreKit.framework */,
 				5351EEFC13E87067002D10DF /* QuartzCore.framework */,
 				5351ED5113E63F8E002D10DF /* UIKit.framework */,
 				5351ED5313E63F8E002D10DF /* Foundation.framework */,
@@ -191,18 +252,19 @@
 		5351ED5713E63F8E002D10DF /* Hackman */ = {
 			isa = PBXGroup;
 			children = (
+				534B0DFD13EBB164006A0C12 /* Game Center */,
+				534B0DFC13EBB149006A0C12 /* In App Purchase */,
 				5351EEC013E7D17D002D10DF /* Resources */,
 				5351EE8C13E7C7C9002D10DF /* Images */,
-				5351ED6013E63F8F002D10DF /* HackmanAppDelegate.h */,
-				5351ED6113E63F8F002D10DF /* HackmanAppDelegate.m */,
-				5351ED6313E63F8F002D10DF /* MainWindow.xib */,
 				5351ED5813E63F8E002D10DF /* Supporting Files */,
 				5351ED6B13E63FBC002D10DF /* MainViewController.h */,
 				5351ED6C13E63FBC002D10DF /* MainViewController.m */,
 				5351ED6D13E63FBC002D10DF /* MainViewController.xib */,
-				5351ED7013E63FCD002D10DF /* OptionsViewController.h */,
-				5351ED7113E63FCD002D10DF /* OptionsViewController.m */,
-				5351ED7213E63FCD002D10DF /* OptionsViewController.xib */,
+				5351ED6013E63F8F002D10DF /* HackmanAppDelegate.h */,
+				5351ED6113E63F8F002D10DF /* HackmanAppDelegate.m */,
+				5351ED6313E63F8F002D10DF /* MainWindow.xib */,
+				53937CD213E8D82600DA2F63 /* OptionsViewController.h */,
+				53937CD313E8D82600DA2F63 /* OptionsViewController.m */,
 				5351EE9C13E7CA98002D10DF /* GameViewController.h */,
 				5351EF3413E8B15C002D10DF /* GameViewController.m */,
 			);
@@ -228,8 +290,8 @@
 				5351EEA113E7CBC4002D10DF /* Hackman Frames */,
 				5351EE9A13E7C88C002D10DF /* Logo@2x.png */,
 				5351EE9013E7C81D002D10DF /* about1.png */,
+				53937CD513E8E9BB00DA2F63 /* button-red.png */,
 				5351EE9113E7C81D002D10DF /* options1.png */,
-				5351EEFA13E86DE2002D10DF /* button-red.png */,
 				5351EE9213E7C81D002D10DF /* play1.png */,
 				5351EE8E13E7C7E0002D10DF /* background.png */,
 			);
@@ -260,9 +322,16 @@
 		5351EEC013E7D17D002D10DF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5351EEBE13E7D174002D10DF /* startups.plist */,
-				5351EEC113E7D1A2002D10DF /* programming.plist */,
-				5351EEC313E7D1AB002D10DF /* names.plist */,
+				534B0DEB13EB5985006A0C12 /* startups.plist */,
+				534B0DF613EB8830006A0C12 /* startups-paid.plist */,
+				534B0DF413EB829F006A0C12 /* planguage.plist */,
+				534B0DF813EB884D006A0C12 /* planguage-paid.plist */,
+				534B0DF213EB8289006A0C12 /* person.plist */,
+				534B0DFA13EB8876006A0C12 /* person-paid.plist */,
+				53937D3413EA026900DA2F63 /* Reachability.h */,
+				53937D3513EA026900DA2F63 /* Reachability.m */,
+				53937D3113EA021F00DA2F63 /* MBProgressHUD.h */,
+				53937D3213EA021F00DA2F63 /* MBProgressHUD.m */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -353,7 +422,6 @@
 				5351ED5C13E63F8E002D10DF /* InfoPlist.strings in Resources */,
 				5351ED6513E63F8F002D10DF /* MainWindow.xib in Resources */,
 				5351ED6F13E63FBC002D10DF /* MainViewController.xib in Resources */,
-				5351ED7413E63FCE002D10DF /* OptionsViewController.xib in Resources */,
 				5351EE8F13E7C7E0002D10DF /* background.png in Resources */,
 				5351EE9313E7C81D002D10DF /* about1.png in Resources */,
 				5351EE9413E7C81D002D10DF /* options1.png in Resources */,
@@ -373,10 +441,6 @@
 				5351EEBB13E7CBC4002D10DF /* hack6@2x.png in Resources */,
 				5351EEBC13E7CBC4002D10DF /* hack7.png in Resources */,
 				5351EEBD13E7CBC4002D10DF /* hack7@2x.png in Resources */,
-				5351EEBF13E7D175002D10DF /* startups.plist in Resources */,
-				5351EEC213E7D1A2002D10DF /* programming.plist in Resources */,
-				5351EEC413E7D1AB002D10DF /* names.plist in Resources */,
-				5351EEFB13E86DE2002D10DF /* button-red.png in Resources */,
 				5351EEFF13E87E99002D10DF /* category.png in Resources */,
 				5351EF1A13E8B0BA002D10DF /* A.png in Resources */,
 				5351EF1B13E8B0BA002D10DF /* B.png in Resources */,
@@ -404,6 +468,13 @@
 				5351EF3113E8B0BA002D10DF /* X.png in Resources */,
 				5351EF3213E8B0BA002D10DF /* Y.png in Resources */,
 				5351EF3313E8B0BA002D10DF /* Z.png in Resources */,
+				53937CD613E8E9BB00DA2F63 /* button-red.png in Resources */,
+				534B0DEC13EB5985006A0C12 /* startups.plist in Resources */,
+				534B0DF313EB8289006A0C12 /* person.plist in Resources */,
+				534B0DF513EB829F006A0C12 /* planguage.plist in Resources */,
+				534B0DF713EB8830006A0C12 /* startups-paid.plist in Resources */,
+				534B0DF913EB884E006A0C12 /* planguage-paid.plist in Resources */,
+				534B0DFB13EB8877006A0C12 /* person-paid.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +488,15 @@
 				5351ED5E13E63F8E002D10DF /* main.m in Sources */,
 				5351ED6213E63F8F002D10DF /* HackmanAppDelegate.m in Sources */,
 				5351ED6E13E63FBC002D10DF /* MainViewController.m in Sources */,
-				5351ED7313E63FCE002D10DF /* OptionsViewController.m in Sources */,
 				5351EF3513E8B15E002D10DF /* GameViewController.m in Sources */,
+				53937CD413E8D82600DA2F63 /* OptionsViewController.m in Sources */,
+				53937CD913E9A9A600DA2F63 /* IAPHelper.m in Sources */,
+				53937D2813EA000E00DA2F63 /* HackmanIAPHelper.m in Sources */,
+				53937D3313EA021F00DA2F63 /* MBProgressHUD.m in Sources */,
+				53937D3613EA026900DA2F63 /* Reachability.m in Sources */,
+				534B0DA113EB0153006A0C12 /* GCHelper.m in Sources */,
+				534B0DE213EB0CE4006A0C12 /* GameState.m in Sources */,
+				534B0DE513EB1807006A0C12 /* GCDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +527,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aditya Herlambang (4XAK25RS9T)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -464,6 +543,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -473,6 +553,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aditya Herlambang (4XAK25RS9T)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -482,6 +563,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9A2CAB77-CAFA-4B7F-A554-D26FAFC2FB58";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
